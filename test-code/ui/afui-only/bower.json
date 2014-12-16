@@ -1,0 +1,22 @@
+{
+  "name": "afui-only",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ingee/freemind-webapp",
+  "authors": [
+    "InGee Kim <ingee@paran.com>"
+  ],
+  "description": "AF-UI test project",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "intel-appframework": "~2.1.1"
+  }
+}

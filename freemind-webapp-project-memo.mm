@@ -150,9 +150,14 @@
 <node CREATED="1418693937554" ID="ID_1619329885" MODIFIED="1418693938606" TEXT="http://app-framework-software.intel.com/documentation.php#afui/afui_about"/>
 <node CREATED="1418694069854" ID="ID_616657268" MODIFIED="1418694086539" TEXT="AF UI&#xb294; Backbone.js&#xc640; &#xc798; &#xc5b4;&#xc6b8;&#xb9bc;"/>
 </node>
-<node CREATED="1418694291243" ID="ID_811120612" MODIFIED="1418697823193" TEXT="Page Layout">
-<icon BUILTIN="messagebox_warning"/>
+<node CREATED="1418694291243" ID="ID_811120612" MODIFIED="1418764920029" TEXT="Page Layout">
 <node CREATED="1418694299386" ID="ID_1692718215" MODIFIED="1418694300236" TEXT="http://app-framework-software.intel.com/documentation.php#afui/afui_layout"/>
+<node CREATED="1418764879618" ID="ID_547266382" MODIFIED="1418764887202" TEXT="panel&#xc774; &#xd575;&#xc2ec;"/>
+<node CREATED="1418764893276" ID="ID_874306334" MODIFIED="1418764902120" TEXT="side-menu &#xc9c0;&#xc6d0;"/>
+</node>
+<node CREATED="1418764922164" ID="ID_1688598316" MODIFIED="1418764965787" TEXT="Panel Properties">
+<icon BUILTIN="messagebox_warning"/>
+<node CREATED="1418764934471" ID="ID_1730930903" MODIFIED="1418764935922" TEXT="http://app-framework-software.intel.com/documentation.php#afui/afui_panels"/>
 </node>
 </node>
 </node>

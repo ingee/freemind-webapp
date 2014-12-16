@@ -1,0 +1,53 @@
+﻿<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AFUI test</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="bower_components/intel-appframework//build/css/icons.css" />
+    <link rel="stylesheet" type="text/css" href="bower_components/intel-appframework//build/css/af.ui.base.css" />
+    <script src="bower_components/intel-appframework/build/appframework.js"></script>
+    <script src="bower_components/intel-appframework/build/ui/appframework.ui.js"></script>
+  </head>
+
+  <body>
+
+    <div id="afui">
+      <div id="header">
+      </div>
+      <div id="content">
+        <div id="main" class="panel" selected="true">
+          <header id="custom_header">
+            <h1>Hi, Welcome</h1>
+            <a style="float:right;" class="icon home"></a>
+          </header>
+          <h1>Panel#Main</h1>
+        </div>
+        <div id="about" data-title="About" class="panel" data-nav="second_nav">
+          <h1>Panel#About</h1>
+        </div>
+      </div>
+
+      <div id="navbar">
+        <a target="#welcome" class="icon home">Home</a>
+      </div>
+
+      <nav id="main_nav">
+        <div class="title">Home</div>
+        <ul>
+          <li><a class="icon home mini" href="#main">Home</a></li>
+          <li><a class="icon info mini" href="#about">About</a></li>
+        </ul>
+      </nav>
+      <nav id="second_nav">
+        <div class="title">Second</div>
+        <ul>
+          <li><a class="icon info mini" href="#about">About</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  </body>
+</html>
