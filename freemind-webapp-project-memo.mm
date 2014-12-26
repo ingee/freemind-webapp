@@ -122,7 +122,7 @@
 </node>
 </node>
 <node CREATED="1418691000031" ID="ID_1795249047" MODIFIED="1418691008446" TEXT="UI framework">
-<node CREATED="1418692145974" ID="ID_1949347249" MODIFIED="1418692154998" TEXT="App Framework">
+<node CREATED="1418692145974" FOLDED="true" ID="ID_1949347249" MODIFIED="1419601052430" TEXT="App Framework">
 <node CREATED="1418692598319" ID="ID_593214937" MODIFIED="1418692599645" TEXT="App Framework&#xacfc; Firefox OS">
 <node CREATED="1418692605410" ID="ID_277158207" MODIFIED="1418692607576" TEXT="http://hacks.mozilla.or.kr/2014/06/app-framework-and-firefox-os/"/>
 <node CREATED="1418692608262" ID="ID_1967530758" MODIFIED="1418692615104" TEXT="2014-06-18"/>
@@ -180,9 +180,40 @@
 </node>
 </node>
 </node>
-<node CREATED="1419418433437" ID="ID_501010265" MODIFIED="1419418448613" TEXT="Scrolling">
-<icon BUILTIN="messagebox_warning"/>
+<node CREATED="1419418433437" ID="ID_501010265" MODIFIED="1419596126976" TEXT="Scrolling">
 <node CREATED="1419418443213" ID="ID_1249181798" MODIFIED="1419418444212" TEXT="http://app-framework-software.intel.com/documentation.php#afui/afui_scrolling"/>
+<node CREATED="1419596064322" ID="ID_610988481" MODIFIED="1419596077671" TEXT="iOS&#xc5d0;&#xc11c; native scrolling &#xae30;&#xb2a5;&#xc744; &#xd65c;&#xc6a9;&#xd560; &#xc218; &#xc788;&#xc74c;"/>
+<node CREATED="1419596077759" ID="ID_1443060320" MODIFIED="1419596091430" TEXT="native scrolling &#xae30;&#xb2a5;&#xc744; &#xb044;&#xb294; &#xac83;&#xb3c4; &#xac00;&#xb2a5;&#xd568;">
+<node CREATED="1419596093253" ID="ID_569917632" MODIFIED="1419596108075" TEXT="&#xc804;&#xc5ed; &#xc124;&#xc815;: $.feat.nativeTouchScroll=false"/>
+<node CREATED="1419596108340" ID="ID_1862647499" MODIFIED="1419596122195" TEXT="panel&#xbcc4; &#xc124;&#xc815;: js-scrolling=&quot;true&quot;"/>
+</node>
+</node>
+<node CREATED="1419596133529" ID="ID_1350162136" MODIFIED="1419596140886" TEXT="Add/Update panel">
+<node CREATED="1419596147565" ID="ID_480866951" MODIFIED="1419596148455" TEXT="http://app-framework-software.intel.com/documentation.php#afui/afui_addupdate"/>
+<node CREATED="1419596359361" ID="ID_273168313" MODIFIED="1419596380335" TEXT="panel&#xc740; JS API&#xb97c; &#xd1b5;&#xd574; &#xcd94;&#xac00;/&#xac31;&#xc2e0; &#xd574;&#xc57c; &#xd568;">
+<node CREATED="1419596384955" ID="ID_1899929925" MODIFIED="1419596396628" TEXT="$.ui.addContentDiv()"/>
+<node CREATED="1419596397297" ID="ID_1005177598" MODIFIED="1419596402905" TEXT="$.ui.updatePanel()"/>
+</node>
+</node>
+<node CREATED="1419596412409" ID="ID_74857857" MODIFIED="1419596417473" TEXT="Ajax/Server Apps">
+<node CREATED="1419596421038" ID="ID_1211582386" MODIFIED="1419596421782" TEXT="http://app-framework-software.intel.com/documentation.php#afui/afui_ajax"/>
+</node>
+<node CREATED="1419597082539" ID="ID_838890661" MODIFIED="1419597087064" TEXT="Styled Lists">
+<node CREATED="1419597089993" ID="ID_1695360909" MODIFIED="1419597091078" TEXT="http://app-framework-software.intel.com/documentation.php#afui/afui_lists"/>
+</node>
+<node CREATED="1419597334351" ID="ID_1787401728" MODIFIED="1419597339832" TEXT="Side Menu">
+<node CREATED="1419597343041" ID="ID_668094527" MODIFIED="1419597344455" TEXT="http://app-framework-software.intel.com/documentation.php#afui/afui_side"/>
+<node CREATED="1419597347397" ID="ID_1910546018" MODIFIED="1419597354777" TEXT="&#xc67c;&#xcabd; &#xc0ac;&#xc774;&#xb4dc; &#xba54;&#xb274;">
+<node CREATED="1419597355912" ID="ID_1337867053" MODIFIED="1419597380884" TEXT="&lt;nav&gt; &#xd0dc;&#xadf8;"/>
+<node CREATED="1419597384999" ID="ID_890373296" MODIFIED="1419597392984" TEXT="panel&#xc758; data-nav &#xc18d;&#xc131;"/>
+</node>
+<node CREATED="1419597366347" ID="ID_823163321" MODIFIED="1419597370307" TEXT="&#xc624;&#xb978;&#xcabd; &#xc0ac;&#xc774;&#xb4dc; &#xba54;&#xb274;">
+<node CREATED="1419597371543" ID="ID_223009604" MODIFIED="1419597383023" TEXT="&lt;aside&gt; &#xd0dc;&#xadf8;"/>
+<node CREATED="1419597394575" ID="ID_741612691" MODIFIED="1419597402721" TEXT="panel&#xc758; data-aside &#xc18d;&#xc131;"/>
+</node>
+</node>
+<node CREATED="1419597636891" ID="ID_68489727" MODIFIED="1419597642239" TEXT="Split View">
+<node CREATED="1419597645166" ID="ID_87892604" MODIFIED="1419597645992" TEXT="http://app-framework-software.intel.com/documentation.php#afui/afui_split"/>
 </node>
 </node>
 </node>
@@ -191,6 +222,23 @@
 <node CREATED="1418698610909" ID="ID_262678221" MODIFIED="1418698623059" TEXT="generator-backbone&#xacfc; &#xc5ee;&#xc5b4;&#xc11c; &#xd14c;&#xc2a4;&#xd2b8;"/>
 </node>
 </node>
+</node>
+</node>
+<node CREATED="1419601061723" ID="ID_516856231" MODIFIED="1419604940261" POSITION="right" TEXT="make skeleton">
+<node CREATED="1419601958225" ID="ID_1240081745" MODIFIED="1419601962245" TEXT="goal">
+<node CREATED="1419601124961" ID="ID_1286776683" MODIFIED="1419601287120" TEXT="make scaffolding with generator-angular, because it is most stable yo-generator"/>
+<node CREATED="1419601218026" ID="ID_788032509" MODIFIED="1419601245597" TEXT="use backbone as a MVC framework"/>
+<node CREATED="1419601246050" ID="ID_746560566" MODIFIED="1419601270743" TEXT="use Intel AFUI as a UI framework"/>
+</node>
+<node CREATED="1419601965853" ID="ID_350042768" MODIFIED="1419601966913" TEXT="todo">
+<node CREATED="1419601971637" ID="ID_549019936" MODIFIED="1419601979276" TEXT="generate scaffolding"/>
+<node CREATED="1419601979503" ID="ID_1734427896" MODIFIED="1419601988275" TEXT="customise Gruntfile"/>
+<node CREATED="1419602034444" ID="ID_1749015868" MODIFIED="1419604832375" TEXT="remove unnecessary files">
+<icon BUILTIN="messagebox_warning"/>
+</node>
+<node CREATED="1419604673312" ID="ID_1493967213" MODIFIED="1419604687728" TEXT="customise index.html"/>
+<node CREATED="1419604714775" ID="ID_706968536" MODIFIED="1419604719488" TEXT="customise app.js"/>
+<node CREATED="1419601988933" ID="ID_1965464511" MODIFIED="1419602027694" TEXT="test build/serve"/>
 </node>
 </node>
 </node>

@@ -1,0 +1,9 @@
+{
+  "name": "src",
+  "version": "0.0.0",
+  "dependencies": {
+    "intel-appframework": "~2.1.1"
+  },
+  "devDependencies": {},
+  "appPath": "app"
+}
