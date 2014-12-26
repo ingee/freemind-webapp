@@ -153,11 +153,36 @@
 <node CREATED="1418694291243" ID="ID_811120612" MODIFIED="1418764920029" TEXT="Page Layout">
 <node CREATED="1418694299386" ID="ID_1692718215" MODIFIED="1418694300236" TEXT="http://app-framework-software.intel.com/documentation.php#afui/afui_layout"/>
 <node CREATED="1418764879618" ID="ID_547266382" MODIFIED="1418764887202" TEXT="panel&#xc774; &#xd575;&#xc2ec;"/>
-<node CREATED="1418764893276" ID="ID_874306334" MODIFIED="1418764902120" TEXT="side-menu &#xc9c0;&#xc6d0;"/>
+<node CREATED="1418764893276" ID="ID_874306334" MODIFIED="1418764902120" TEXT="side-menu &#xc9c0;&#xc6d0;">
+<node CREATED="1419416842526" ID="ID_580430100" MODIFIED="1419416854803" TEXT="$.ui.toggleLeftSideMenu()"/>
 </node>
-<node CREATED="1418764922164" ID="ID_1688598316" MODIFIED="1418764965787" TEXT="Panel Properties">
-<icon BUILTIN="messagebox_warning"/>
+</node>
+<node CREATED="1418764922164" ID="ID_1688598316" MODIFIED="1419417309469" TEXT="Panel Properties">
 <node CREATED="1418764934471" ID="ID_1730930903" MODIFIED="1418764935922" TEXT="http://app-framework-software.intel.com/documentation.php#afui/afui_panels"/>
+<node CREATED="1419417193799" ID="ID_785266219" MODIFIED="1419418361671" TEXT="panel&#xc5d0; &#xbd80;&#xc5ec; &#xac00;&#xb2a5;&#xd55c; &#xc18d;&#xc131; &#xc18c;&#xac1c;">
+<node CREATED="1419417225759" ID="ID_356818453" MODIFIED="1419417233809" TEXT="modal=&quot;true&quot;">
+<node CREATED="1419417234893" ID="ID_1522640032" MODIFIED="1419417248389" TEXT="panel&#xc744; modal &#xc708;&#xb3c4; &#xd615;&#xd0dc;&#xb85c;"/>
+</node>
+<node CREATED="1419417249629" ID="ID_1734687708" MODIFIED="1419417258225" TEXT="data-load=&quot;func_name&quot;">
+<node CREATED="1419417259388" ID="ID_1975283463" MODIFIED="1419417271073" TEXT="panel load &#xc2dc;&#xc810;&#xc5d0; func_name &#xd568;&#xc218; &#xd638;&#xcd9c;"/>
+</node>
+<node CREATED="1419417271986" ID="ID_748868940" MODIFIED="1419417281206" TEXT="data-unload=&quot;func_name&quot;">
+<node CREATED="1419417283336" ID="ID_685529865" MODIFIED="1419417292775" TEXT="panel unload &#xc2dc;&#xc810;&#xc5d0; func_name &#xd568;&#xc218; &#xd638;&#xcd9c;"/>
+</node>
+</node>
+</node>
+<node CREATED="1419417312365" ID="ID_1852644021" MODIFIED="1419417317716" TEXT="Anchor Attributes">
+<node CREATED="1419418349666" ID="ID_1283726124" MODIFIED="1419418350945" TEXT="http://app-framework-software.intel.com/documentation.php#afui/afui_anchors"/>
+<node CREATED="1419418351514" ID="ID_1739006321" MODIFIED="1419418359066" TEXT="anchor&#xc5d0; &#xbd80;&#xc5ec; &#xac00;&#xb2a5;&#xd55c; &#xc18d;&#xc131; &#xc18c;&#xac1c;">
+<node CREATED="1419418363910" ID="ID_1818808155" MODIFIED="1419418371323" TEXT="data-transition">
+<node CREATED="1419418372689" ID="ID_791182408" MODIFIED="1419418382988" TEXT="&#xd654;&#xba74; &#xc804;&#xd658; &#xd6a8;&#xacfc; &#xc9c0;&#xc815;"/>
+<node CREATED="1419418383167" ID="ID_700074379" MODIFIED="1419418401565" TEXT="slide, up, down, flip, fade, pop, none &#xc9c0;&#xc815; &#xac00;&#xb2a5;"/>
+</node>
+</node>
+</node>
+<node CREATED="1419418433437" ID="ID_501010265" MODIFIED="1419418448613" TEXT="Scrolling">
+<icon BUILTIN="messagebox_warning"/>
+<node CREATED="1419418443213" ID="ID_1249181798" MODIFIED="1419418444212" TEXT="http://app-framework-software.intel.com/documentation.php#afui/afui_scrolling"/>
 </node>
 </node>
 </node>
