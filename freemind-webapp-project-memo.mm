@@ -1,38 +1,68 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1403439643166" ID="ID_241255190" MODIFIED="1403439653314" TEXT="FreeMind WebApp">
-<node CREATED="1416839599227" ID="ID_1145239056" MODIFIED="1416839609967" POSITION="right" TEXT="feasibility test">
-<node CREATED="1403439654992" ID="ID_1289525172" MODIFIED="1403439657596" TEXT="xml parsing">
-<node CREATED="1406122738746" ID="ID_433305336" MODIFIED="1416839578229" TEXT="todo">
-<node CREATED="1406122711282" ID="ID_1042150107" MODIFIED="1406122735802" TEXT="parse xml using jQuery.parseXML()"/>
-<node CREATED="1406122747117" ID="ID_534903524" MODIFIED="1416923973754" TEXT="traverse xml-DOM"/>
+<node CREATED="1403439643166" ID="ID_241255190" MODIFIED="1419968410889" TEXT="FreeMind WebApp">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+<node CREATED="1416839599227" ID="ID_1145239056" MODIFIED="1419968410889" POSITION="right" TEXT="feasibility test">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+<node CREATED="1403439654992" ID="ID_1289525172" MODIFIED="1419968410889" TEXT="xml parsing">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+<node CREATED="1406122738746" ID="ID_433305336" MODIFIED="1419968410889" TEXT="todo">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+<node CREATED="1406122711282" ID="ID_1042150107" MODIFIED="1419968410889" TEXT="parse xml using jQuery.parseXML()">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
 </node>
-<node CREATED="1403439664909" ID="ID_1997794936" MODIFIED="1403439670244" TEXT="stack-overflow">
-<node CREATED="1403439671366" ID="ID_558809868" MODIFIED="1403439672373" TEXT="http://stackoverflow.com/questions/7949752/cross-browser-javascript-xml-parsing"/>
-<node CREATED="1403439692571" ID="ID_664664443" MODIFIED="1403439695751" TEXT="Q: Whats the easiest cross-browser/cross-platform way to parse XML files in Javascript?"/>
-<node CREATED="1403439696353" ID="ID_1964208594" MODIFIED="1403439746209" TEXT="A: use jQuery.parseXML()">
-<node CREATED="1404309302700" ID="ID_1073174871" MODIFIED="1406122707096" TEXT="http://api.jquery.com/jquery.parsexml/">
+<node CREATED="1406122747117" ID="ID_534903524" MODIFIED="1419968410888" TEXT="traverse xml-DOM">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+</node>
+</node>
+<node CREATED="1403439664909" ID="ID_1997794936" MODIFIED="1419968410888" TEXT="stack-overflow">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+<node CREATED="1403439671366" ID="ID_558809868" MODIFIED="1419968410888" TEXT="http://stackoverflow.com/questions/7949752/cross-browser-javascript-xml-parsing">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+</node>
+<node CREATED="1403439692571" ID="ID_664664443" MODIFIED="1419968410886" TEXT="Q: Whats the easiest cross-browser/cross-platform way to parse XML files in Javascript?">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+</node>
+<node CREATED="1403439696353" ID="ID_1964208594" MODIFIED="1419968410886" TEXT="A: use jQuery.parseXML()">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+<node CREATED="1404309302700" ID="ID_1073174871" MODIFIED="1419968410886" TEXT="http://api.jquery.com/jquery.parsexml/">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
 <icon BUILTIN="idea"/>
 </node>
 </node>
-<node CREATED="1403439727372" ID="ID_1994648598" MODIFIED="1403439759569" TEXT="A: use SAX way">
-<node CREATED="1403439760687" ID="ID_994691326" MODIFIED="1403439761425" TEXT="https://github.com/isaacs/sax-js/"/>
+<node CREATED="1403439727372" ID="ID_1994648598" MODIFIED="1419968410885" TEXT="A: use SAX way">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+<node CREATED="1403439760687" ID="ID_994691326" MODIFIED="1419968410885" TEXT="https://github.com/isaacs/sax-js/">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
 </node>
 </node>
 </node>
-<node CREATED="1416835594914" ID="ID_784419373" MODIFIED="1418690714435" TEXT="&#xac1c;&#xbc1c;&#xd658;&#xacbd; &#xad6c;&#xcd95;">
-<node CREATED="1416839536420" ID="ID_1347068732" MODIFIED="1416839543332" TEXT="todo">
-<node CREATED="1416835628216" ID="ID_469256651" MODIFIED="1416835642750" TEXT="library installing"/>
-<node CREATED="1416835651345" ID="ID_1164199382" MODIFIED="1417122860994" TEXT="scaffolding"/>
-<node CREATED="1416835685313" ID="ID_617164874" MODIFIED="1416835690670" TEXT="boilerplating"/>
-<node CREATED="1416835723649" ID="ID_663461937" MODIFIED="1416835731666" TEXT="build scripting"/>
 </node>
-<node CREATED="1416839548360" FOLDED="true" ID="ID_724216591" MODIFIED="1417530738453" TEXT="grunt-bbb slide">
+<node CREATED="1416835594914" ID="ID_784419373" MODIFIED="1419968410885" TEXT="&#xac1c;&#xbc1c;&#xd658;&#xacbd; &#xad6c;&#xcd95;">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+<node CREATED="1416839536420" ID="ID_1347068732" MODIFIED="1419968410885" TEXT="todo">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+<node CREATED="1416835628216" ID="ID_469256651" MODIFIED="1419968410885" TEXT="library installing">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+</node>
+<node CREATED="1416835651345" ID="ID_1164199382" MODIFIED="1419968410885" TEXT="scaffolding">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+</node>
+<node CREATED="1416835685313" ID="ID_617164874" MODIFIED="1419968410884" TEXT="boilerplating">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+</node>
+<node CREATED="1416835723649" ID="ID_663461937" MODIFIED="1419968410884" TEXT="build scripting">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+</node>
+</node>
+<node CREATED="1416839548360" FOLDED="true" ID="ID_724216591" MODIFIED="1419968410884" TEXT="grunt-bbb slide">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
 <node CREATED="1416839558350" ID="ID_1220364786" MODIFIED="1416839559323" TEXT="https://dl.dropboxusercontent.com/u/79007/talks/Modern_Web_Applications/slides/index.html"/>
 <node CREATED="1416839560436" ID="ID_116757991" MODIFIED="1416839565001" TEXT="&#xd06c;&#xb86c;&#xc5d0;&#xc11c; &#xbd10;&#xc57c; &#xd568;"/>
 <node CREATED="1416841118180" ID="ID_158276167" MODIFIED="1416841135145" TEXT="grunt-bbb &#xc758;&#xbbf8; &#xbc0f; &#xac1c;&#xc694;"/>
 </node>
-<node CREATED="1416841106277" FOLDED="true" ID="ID_701286961" MODIFIED="1417530739881" TEXT="&#xc2a4;&#xd0dd;&#xc624;&#xbc84;&#xd50c;&#xb85c;: &quot;-bash: bbb: command not found&quot;">
+<node CREATED="1416841106277" FOLDED="true" ID="ID_701286961" MODIFIED="1419968410883" TEXT="&#xc2a4;&#xd0dd;&#xc624;&#xbc84;&#xd50c;&#xb85c;: &quot;-bash: bbb: command not found&quot;">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
 <node CREATED="1416841115507" ID="ID_1830348427" MODIFIED="1416841116267" TEXT="http://stackoverflow.com/questions/19475194/bash-bbb-command-not-found"/>
 <node CREATED="1416922248477" ID="ID_1114335021" MODIFIED="1416922252340" TEXT="2013-10-20"/>
 <node CREATED="1416841137665" ID="ID_470884066" MODIFIED="1416841176996" TEXT="grunt-bbb &#xd328;&#xd0a4;&#xc9c0; repo&#xac00; &#xbe44;&#xc6cc;&#xc84c;&#xb2e4;"/>
@@ -41,18 +71,21 @@
 <node CREATED="1416841243499" ID="ID_1095361129" MODIFIED="1416841244255" TEXT="$ yo bbb:app myapp"/>
 </node>
 </node>
-<node CREATED="1416922111325" FOLDED="true" ID="ID_504387994" MODIFIED="1417530743201" TEXT="Automating Front-end Workflow with Yeoman">
+<node CREATED="1416922111325" FOLDED="true" ID="ID_504387994" MODIFIED="1419968410883" TEXT="Automating Front-end Workflow with Yeoman">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
 <node CREATED="1416922108713" ID="ID_711184459" MODIFIED="1416922110688" TEXT="https://speakerdeck.com/addyosmani/automating-front-end-workflow-with-yeoman"/>
 <node CREATED="1416922200264" ID="ID_1686724087" MODIFIED="1416922208001" TEXT="2013-10-28"/>
 <node CREATED="1416923854434" ID="ID_934462795" MODIFIED="1416923861132" TEXT="grunt"/>
 <node CREATED="1416923901184" ID="ID_1729190382" MODIFIED="1416923902331" TEXT="bower"/>
 <node CREATED="1416923904113" ID="ID_1864779389" MODIFIED="1416923905253" TEXT="yo"/>
 </node>
-<node CREATED="1416923940903" FOLDED="true" ID="ID_1141849227" MODIFIED="1417530748994" TEXT="Front-end Tooling Workflows">
+<node CREATED="1416923940903" FOLDED="true" ID="ID_1141849227" MODIFIED="1419968410883" TEXT="Front-end Tooling Workflows">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
 <node CREATED="1416923945703" ID="ID_1797536261" MODIFIED="1416923946658" TEXT="https://speakerdeck.com/addyosmani/front-end-tooling-workflows"/>
 <node CREATED="1416923947677" ID="ID_1481360290" MODIFIED="1416923955354" TEXT="2014-11-09"/>
 </node>
-<node CREATED="1416841939740" FOLDED="true" ID="ID_1148986643" MODIFIED="1418690716112" TEXT="YEOMAN">
+<node CREATED="1416841939740" FOLDED="true" ID="ID_1148986643" MODIFIED="1419968410883" TEXT="YEOMAN">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
 <icon BUILTIN="idea"/>
 <node CREATED="1416841936927" ID="ID_1001996219" MODIFIED="1417134911447" TEXT="http://yeoman.io/">
 <node CREATED="1417119356390" ID="ID_912399967" MODIFIED="1417119358667" TEXT="yo">
@@ -94,35 +127,58 @@
 <node CREATED="1417495958937" ID="ID_1872255192" MODIFIED="1417495959784" TEXT="Step 10: Make Todos persistent with local storage"/>
 </node>
 </node>
-<node CREATED="1417530752870" ID="ID_1190566122" MODIFIED="1418690744429" TEXT="generator-backbone">
-<node CREATED="1417530795608" ID="ID_432011348" MODIFIED="1417530797856" TEXT="http://yeoman.io/generators/"/>
-<node CREATED="1417530781782" ID="ID_1965629193" MODIFIED="1417530782817" TEXT="https://github.com/yeoman/generator-backbone"/>
-<node CREATED="1417533338810" ID="ID_703442938" MODIFIED="1417533365099" TEXT="&#xc708;&#xb3c4;&#xc5d0;&#xc11c; npm&#xc744; 2.x&#xb85c; &#xc5c5;&#xadf8;&#xb808;&#xc774;&#xb4dc; &#xd558;&#xae30;">
-<node CREATED="1417533369467" ID="ID_17192610" MODIFIED="1417533370571" TEXT="https://github.com/npm/npm/wiki/Troubleshooting#upgrading-on-windows"/>
+<node CREATED="1417530752870" ID="ID_1190566122" MODIFIED="1419968410883" TEXT="generator-backbone">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+<node CREATED="1417530795608" ID="ID_432011348" MODIFIED="1419968410883" TEXT="http://yeoman.io/generators/">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
 </node>
-<node CREATED="1417705548281" ID="ID_810795706" MODIFIED="1418075288865" TEXT="yo&#xac00; &#xc0dd;&#xc131;&#xd55c; &#xd504;&#xb85c;&#xc81d;&#xd2b8;&#xc758; grunt &#xbe4c;&#xb4dc;&#xacfc;&#xc815;&#xc774; require.js &#xb97c; &#xc9c0;&#xc6d0; &#xc54a;&#xc74c;">
+<node CREATED="1417530781782" ID="ID_1965629193" MODIFIED="1419968410883" TEXT="https://github.com/yeoman/generator-backbone">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+</node>
+<node CREATED="1417533338810" ID="ID_703442938" MODIFIED="1419968410883" TEXT="&#xc708;&#xb3c4;&#xc5d0;&#xc11c; npm&#xc744; 2.x&#xb85c; &#xc5c5;&#xadf8;&#xb808;&#xc774;&#xb4dc; &#xd558;&#xae30;">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+<node CREATED="1417533369467" ID="ID_17192610" MODIFIED="1419968410883" TEXT="https://github.com/npm/npm/wiki/Troubleshooting#upgrading-on-windows">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+</node>
+</node>
+<node CREATED="1417705548281" ID="ID_810795706" MODIFIED="1419968410882" TEXT="yo&#xac00; &#xc0dd;&#xc131;&#xd55c; &#xd504;&#xb85c;&#xc81d;&#xd2b8;&#xc758; grunt &#xbe4c;&#xb4dc;&#xacfc;&#xc815;&#xc774; require.js &#xb97c; &#xc9c0;&#xc6d0; &#xc54a;&#xc74c;">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
 <icon BUILTIN="idea"/>
-<node CREATED="1417748968647" FOLDED="true" ID="ID_277173801" MODIFIED="1418075437394" TEXT="usemin &#xc774; requirejs &#xc9c0;&#xc6d0;&#xc744; &#xc911;&#xb2e8;&#xd588;&#xc74c;">
+<node CREATED="1417748968647" FOLDED="true" ID="ID_277173801" MODIFIED="1419968410882" TEXT="usemin &#xc774; requirejs &#xc9c0;&#xc6d0;&#xc744; &#xc911;&#xb2e8;&#xd588;&#xc74c;">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
 <node CREATED="1417749026896" ID="ID_1821553135" MODIFIED="1417749028863" TEXT="How to handle require.js in v2.0 ?"/>
 <node CREATED="1417749001373" ID="ID_971588075" MODIFIED="1417749002664" TEXT="https://github.com/yeoman/grunt-usemin/issues/112"/>
 </node>
-<node CREATED="1417752834334" ID="ID_1936744614" MODIFIED="1418690750836" TEXT="generator-backbone &#xc774;&#xc288; &#xc624;&#xd508;&#xb428;">
-<node CREATED="1417752851976" ID="ID_1329079342" MODIFIED="1417752852866" TEXT="https://github.com/yeoman/generator-backbone/issues/296"/>
-<node CREATED="1417752854846" ID="ID_1485945755" MODIFIED="1417752860947" TEXT="2014-10-16"/>
+<node CREATED="1417752834334" ID="ID_1936744614" MODIFIED="1419968410882" TEXT="generator-backbone &#xc774;&#xc288; &#xc624;&#xd508;&#xb428;">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+<node CREATED="1417752851976" ID="ID_1329079342" MODIFIED="1419968410882" TEXT="https://github.com/yeoman/generator-backbone/issues/296">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+</node>
+<node CREATED="1417752854846" ID="ID_1485945755" MODIFIED="1419968410882" TEXT="2014-10-16">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
 </node>
 </node>
 </node>
-<node CREATED="1418075324144" ID="ID_1851023916" MODIFIED="1418075563791" TEXT="&#xacb0;&#xb860;">
+</node>
+<node CREATED="1418075324144" ID="ID_1851023916" MODIFIED="1419968410882" TEXT="&#xacb0;&#xb860;">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
 <icon BUILTIN="idea"/>
-<node CREATED="1418075326851" ID="ID_1738506222" MODIFIED="1418075356858" TEXT="Yeoman&#xc73c;&#xb85c; Scaffolding &#xc0dd;&#xc131;, f/w &#xd328;&#xd0a4;&#xc9c0; &#xad00;&#xb9ac;, &#xbe4c;&#xb4dc; &#xc790;&#xb3d9;&#xd654;"/>
-<node CREATED="1418075358540" ID="ID_325912221" MODIFIED="1418075366573" TEXT="generator-backbone &#xc774;&#xc6a9;"/>
-<node CREATED="1418075367268" ID="ID_589778244" MODIFIED="1418075549404" TEXT="require.js&#xb294; &#xc774;&#xc288; &#xd574;&#xacb0; &#xc2dc;&#xc810;&#xae4c;&#xc9c0; &#xc0ac;&#xc6a9; &#xbcf4;&#xb958;">
+<node CREATED="1418075326851" ID="ID_1738506222" MODIFIED="1419968410882" TEXT="Yeoman&#xc73c;&#xb85c; Scaffolding &#xc0dd;&#xc131;, f/w &#xd328;&#xd0a4;&#xc9c0; &#xad00;&#xb9ac;, &#xbe4c;&#xb4dc; &#xc790;&#xb3d9;&#xd654;">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+</node>
+<node CREATED="1418075358540" ID="ID_325912221" MODIFIED="1419968410882" TEXT="generator-backbone &#xc774;&#xc6a9;">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+</node>
+<node CREATED="1418075367268" ID="ID_589778244" MODIFIED="1419968410882" TEXT="require.js&#xb294; &#xc774;&#xc288; &#xd574;&#xacb0; &#xc2dc;&#xc810;&#xae4c;&#xc9c0; &#xc0ac;&#xc6a9; &#xbcf4;&#xb958;">
 <arrowlink DESTINATION="ID_1936744614" ENDARROW="Default" ENDINCLINATION="518;0;" ID="Arrow_ID_332036513" STARTARROW="None" STARTINCLINATION="518;0;"/>
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
 </node>
 </node>
 </node>
-<node CREATED="1418691000031" ID="ID_1795249047" MODIFIED="1418691008446" TEXT="UI framework">
-<node CREATED="1418692145974" FOLDED="true" ID="ID_1949347249" MODIFIED="1419601052430" TEXT="App Framework">
+<node CREATED="1418691000031" FOLDED="true" ID="ID_1795249047" MODIFIED="1420464719269" TEXT="UI framework">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+<node CREATED="1418692145974" ID="ID_1949347249" MODIFIED="1420463153608" TEXT="App Framework">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
 <node CREATED="1418692598319" ID="ID_593214937" MODIFIED="1418692599645" TEXT="App Framework&#xacfc; Firefox OS">
 <node CREATED="1418692605410" ID="ID_277158207" MODIFIED="1418692607576" TEXT="http://hacks.mozilla.or.kr/2014/06/app-framework-and-firefox-os/"/>
 <node CREATED="1418692608262" ID="ID_1967530758" MODIFIED="1418692615104" TEXT="2014-06-18"/>
@@ -224,21 +280,43 @@
 </node>
 </node>
 </node>
-<node CREATED="1419601061723" ID="ID_516856231" MODIFIED="1419604940261" POSITION="right" TEXT="make skeleton">
-<node CREATED="1419601958225" ID="ID_1240081745" MODIFIED="1419601962245" TEXT="goal">
-<node CREATED="1419601124961" ID="ID_1286776683" MODIFIED="1419601287120" TEXT="make scaffolding with generator-angular, because it is most stable yo-generator"/>
-<node CREATED="1419601218026" ID="ID_788032509" MODIFIED="1419601245597" TEXT="use backbone as a MVC framework"/>
-<node CREATED="1419601246050" ID="ID_746560566" MODIFIED="1419601270743" TEXT="use Intel AFUI as a UI framework"/>
+<node CREATED="1419601061723" ID="ID_516856231" MODIFIED="1419968410882" POSITION="right" TEXT="make skeleton">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+<node CREATED="1419601958225" ID="ID_1240081745" MODIFIED="1419968410882" TEXT="goal">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+<node CREATED="1419601124961" ID="ID_1286776683" MODIFIED="1419968410881" TEXT="make scaffolding with generator-angular, because it is most stable yo-generator">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
 </node>
-<node CREATED="1419601965853" ID="ID_350042768" MODIFIED="1419601966913" TEXT="todo">
-<node CREATED="1419601971637" ID="ID_549019936" MODIFIED="1419601979276" TEXT="generate scaffolding"/>
-<node CREATED="1419601979503" ID="ID_1734427896" MODIFIED="1419601988275" TEXT="customise Gruntfile"/>
-<node CREATED="1419602034444" ID="ID_1749015868" MODIFIED="1419604832375" TEXT="remove unnecessary files">
+<node CREATED="1419601218026" ID="ID_788032509" MODIFIED="1419968410881" TEXT="use backbone as a MVC framework">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+</node>
+<node CREATED="1419601246050" ID="ID_746560566" MODIFIED="1419968410881" TEXT="use Intel AFUI as a UI framework">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+</node>
+</node>
+<node CREATED="1419601965853" ID="ID_350042768" MODIFIED="1419968410881" TEXT="todo">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+<node CREATED="1419601971637" ID="ID_549019936" MODIFIED="1419968410881" TEXT="generate scaffolding">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+</node>
+<node CREATED="1419601979503" ID="ID_1734427896" MODIFIED="1420465989035" TEXT="customize Gruntfile">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+</node>
+<node CREATED="1419602034444" ID="ID_1749015868" MODIFIED="1420464726483" TEXT="remove unnecessary files">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+</node>
+<node CREATED="1419604673312" ID="ID_1493967213" MODIFIED="1420467851634" TEXT="customize index.html">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
 <icon BUILTIN="messagebox_warning"/>
+<node CREATED="1420468057928" ID="ID_1629480650" MODIFIED="1420468080086" TEXT="AFUI &#xc774;&#xc6a9; &#xac04;&#xb2e8;&#xd55c; UI &#xad6c;&#xc131;"/>
+<node CREATED="1420468063720" ID="ID_116979850" MODIFIED="1420468070789" TEXT="https://github.com/ingee/freemind-webapp/issues/1"/>
 </node>
-<node CREATED="1419604673312" ID="ID_1493967213" MODIFIED="1419604687728" TEXT="customise index.html"/>
-<node CREATED="1419604714775" ID="ID_706968536" MODIFIED="1419604719488" TEXT="customise app.js"/>
-<node CREATED="1419601988933" ID="ID_1965464511" MODIFIED="1419602027694" TEXT="test build/serve"/>
+<node CREATED="1419604714775" ID="ID_706968536" MODIFIED="1420465996382" TEXT="customize app.js">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+</node>
+<node CREATED="1419601988933" ID="ID_1965464511" MODIFIED="1419968410881" TEXT="test build/serve">
+<font NAME="&#xad74;&#xb9bc;" SIZE="14"/>
+</node>
 </node>
 </node>
 </node>
