@@ -4,6 +4,7 @@
   "dependencies": {
     "intel-appframework": "~2.1.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+  },
   "appPath": "app"
 }
