@@ -1,6 +1,6 @@
 node_modules
 dist
-.tmp
-.swp
-.sass-cache
+*.tmp
+*.swp
+*.sass-cache
 bower_components
