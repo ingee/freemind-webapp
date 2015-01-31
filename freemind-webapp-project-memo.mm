@@ -2,8 +2,9 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1403439643166" ID="ID_241255190" MODIFIED="1421073259891" TEXT="FreeMind WebApp">
 <font NAME="&#xad74;&#xb9bc;" SIZE="12"/>
-<node CREATED="1416839599227" ID="ID_1145239056" MODIFIED="1421073262592" POSITION="right" TEXT="feasibility test">
+<node CREATED="1416839599227" ID="ID_1145239056" MODIFIED="1422714298481" POSITION="right" TEXT="feasibility test">
 <font NAME="&#xad74;&#xb9bc;" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
 <node CREATED="1403439654992" FOLDED="true" ID="ID_1289525172" MODIFIED="1421073259879" TEXT="xml parsing">
 <font NAME="&#xad74;&#xb9bc;" SIZE="12"/>
 <node CREATED="1406122738746" FOLDED="true" ID="ID_433305336" MODIFIED="1421073259879" TEXT="todo">
@@ -280,8 +281,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1419601061723" ID="ID_516856231" MODIFIED="1421073263885" POSITION="right" TEXT="make skeleton">
+<node CREATED="1419601061723" ID="ID_516856231" MODIFIED="1422714301491" POSITION="right" TEXT="make skeleton">
 <font NAME="&#xad74;&#xb9bc;" SIZE="12"/>
+<icon BUILTIN="messagebox_warning"/>
 <node CREATED="1419601958225" ID="ID_1240081745" MODIFIED="1421073268842" TEXT="goal">
 <font NAME="&#xad74;&#xb9bc;" SIZE="12"/>
 <node CREATED="1419601124961" ID="ID_1286776683" MODIFIED="1421073238604" TEXT="make scaffolding with generator-angular, because it is most stable yo-generator">
