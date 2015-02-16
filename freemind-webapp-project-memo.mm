@@ -313,16 +313,33 @@
 <node CREATED="1419604673312" ID="ID_1493967213" MODIFIED="1422709439062" TEXT="customize index.html">
 <font NAME="&#xad74;&#xb9bc;" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
+<node CREATED="1420468063720" ID="ID_116979850" MODIFIED="1422714961158" TEXT="https://github.com/ingee/freemind-webapp/issues/1"/>
 <node CREATED="1420468057928" ID="ID_1629480650" MODIFIED="1420468080086" TEXT="AFUI &#xc774;&#xc6a9; &#xac04;&#xb2e8;&#xd55c; UI &#xad6c;&#xc131;"/>
-<node CREATED="1420468063720" ID="ID_116979850" MODIFIED="1420468070789" TEXT="https://github.com/ingee/freemind-webapp/issues/1"/>
 </node>
-<node CREATED="1419604714775" ID="ID_706968536" MODIFIED="1421073238604" TEXT="customize app.js">
+<node CREATED="1419604714775" ID="ID_706968536" MODIFIED="1422714591281" TEXT="customize app.js">
 <font NAME="&#xad74;&#xb9bc;" SIZE="12"/>
+<icon BUILTIN="messagebox_warning"/>
+<node CREATED="1420468063720" ID="ID_1794310058" MODIFIED="1422721840152" TEXT="https://github.com/ingee/freemind-webapp/issues/5"/>
+<node CREATED="1422721883085" ID="ID_1197474512" MODIFIED="1422722202170" TEXT="node folding/unfolding UX &#xad6c;&#xd604;"/>
+<node CREATED="1422721843321" ID="ID_654275049" MODIFIED="1422722178936" TEXT="mind-map URL &#xc9c0;&#xc815; UX &#xad6c;&#xd604;"/>
 </node>
 <node CREATED="1419601988933" ID="ID_1965464511" MODIFIED="1421073238603" TEXT="test build/serve">
 <font NAME="&#xad74;&#xb9bc;" SIZE="12"/>
+<node CREATED="1422715088090" ID="ID_1257831795" MODIFIED="1422715089524" TEXT="https://github.com/ingee/freemind-webapp/issues/2"/>
+<node CREATED="1422715090333" ID="ID_1855677672" MODIFIED="1422715105416" TEXT="build &#xc0dd;&#xc131; &#xacb0;&#xacfc;&#xbb3c; &#xccb4;&#xd06c;"/>
+<node CREATED="1422715131499" ID="ID_766602939" MODIFIED="1422715144863" TEXT="build &#xacb0;&#xacfc; deploy &#xbc29;&#xbc95; &#xd655;&#xc778;"/>
+<node CREATED="1422715105634" ID="ID_159280092" MODIFIED="1422715115278" TEXT="test &#xc2a4;&#xd06c;&#xb9bd;&#xd2b8; &#xc791;&#xc131;"/>
+<node CREATED="1422715115526" ID="ID_764588257" MODIFIED="1422715127831" TEXT="test &#xacb0;&#xacfc; &#xccb4;&#xd06c;"/>
 </node>
 </node>
+</node>
+<node CREATED="1422715190689" ID="ID_1013298137" MODIFIED="1422722075383" POSITION="right" TEXT="support node operation (add/update/delete)">
+<node CREATED="1422715202102" ID="ID_668488229" MODIFIED="1422721709168" TEXT="design app-architecture with Backbone.js"/>
+<node CREATED="1424058125073" ID="ID_1820447360" MODIFIED="1424058162948" TEXT="generate node view with hard-coded static freemind data">
+<node CREATED="1422715241119" ID="ID_1694203287" MODIFIED="1424058191885" TEXT="check feasibility of utilizing template-lib for UI generation"/>
+</node>
+<node CREATED="1422721883085" ID="ID_747160468" MODIFIED="1424058173769" TEXT="implement node folding/unfolding UX"/>
+<node CREATED="1422721843321" ID="ID_485553699" MODIFIED="1424058221243" TEXT="implement specifying mind-map URL UX"/>
 </node>
 </node>
 </map>
