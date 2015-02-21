@@ -281,9 +281,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1419601061723" ID="ID_516856231" MODIFIED="1422714301491" POSITION="right" TEXT="make skeleton">
+<node CREATED="1419601061723" ID="ID_516856231" MODIFIED="1424533217044" POSITION="right" TEXT="make skeleton">
 <font NAME="&#xad74;&#xb9bc;" SIZE="12"/>
-<icon BUILTIN="messagebox_warning"/>
+<icon BUILTIN="button_ok"/>
 <node CREATED="1419601958225" ID="ID_1240081745" MODIFIED="1421073268842" TEXT="goal">
 <font NAME="&#xad74;&#xb9bc;" SIZE="12"/>
 <node CREATED="1419601124961" ID="ID_1286776683" MODIFIED="1421073238604" TEXT="make scaffolding with generator-angular, because it is most stable yo-generator">
@@ -316,29 +316,74 @@
 <node CREATED="1420468063720" ID="ID_116979850" MODIFIED="1422714961158" TEXT="https://github.com/ingee/freemind-webapp/issues/1"/>
 <node CREATED="1420468057928" ID="ID_1629480650" MODIFIED="1420468080086" TEXT="AFUI &#xc774;&#xc6a9; &#xac04;&#xb2e8;&#xd55c; UI &#xad6c;&#xc131;"/>
 </node>
-<node CREATED="1419604714775" ID="ID_706968536" MODIFIED="1422714591281" TEXT="customize app.js">
+<node CREATED="1419601988933" FOLDED="true" ID="ID_1965464511" MODIFIED="1424533223184" TEXT="test build/serve">
 <font NAME="&#xad74;&#xb9bc;" SIZE="12"/>
-<icon BUILTIN="messagebox_warning"/>
-<node CREATED="1420468063720" ID="ID_1794310058" MODIFIED="1422721840152" TEXT="https://github.com/ingee/freemind-webapp/issues/5"/>
-<node CREATED="1422721883085" ID="ID_1197474512" MODIFIED="1422722202170" TEXT="node folding/unfolding UX &#xad6c;&#xd604;"/>
-<node CREATED="1422721843321" ID="ID_654275049" MODIFIED="1422722178936" TEXT="mind-map URL &#xc9c0;&#xc815; UX &#xad6c;&#xd604;"/>
-</node>
-<node CREATED="1419601988933" ID="ID_1965464511" MODIFIED="1421073238603" TEXT="test build/serve">
-<font NAME="&#xad74;&#xb9bc;" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
 <node CREATED="1422715088090" ID="ID_1257831795" MODIFIED="1422715089524" TEXT="https://github.com/ingee/freemind-webapp/issues/2"/>
-<node CREATED="1422715090333" ID="ID_1855677672" MODIFIED="1422715105416" TEXT="build &#xc0dd;&#xc131; &#xacb0;&#xacfc;&#xbb3c; &#xccb4;&#xd06c;"/>
-<node CREATED="1422715131499" ID="ID_766602939" MODIFIED="1422715144863" TEXT="build &#xacb0;&#xacfc; deploy &#xbc29;&#xbc95; &#xd655;&#xc778;"/>
-<node CREATED="1422715105634" ID="ID_159280092" MODIFIED="1422715115278" TEXT="test &#xc2a4;&#xd06c;&#xb9bd;&#xd2b8; &#xc791;&#xc131;"/>
+<node CREATED="1424241153530" ID="ID_59956952" MODIFIED="1424397832457" TEXT="grunt &#xc0ac;&#xc6a9;&#xbc95; &#xccb4;&#xd06c;">
+<node CREATED="1424241162334" ID="ID_1413396146" LINK="http://gruntjs.com/sample-gruntfile" MODIFIED="1424241162334" TEXT="gruntjs.com &gt; Sample-gruntfile"/>
+<node CREATED="1424240939758" ID="ID_1028183459" MODIFIED="1424240950539" TEXT="grunt &#xc18c;&#xc2a4;&#xcf54;&#xb4dc; &#xac80;&#xd1a0;">
+<node CREATED="1424240987083" ID="ID_786330780" LINK="https://github.com/gruntjs/grunt-cli/blob/master/bin/grunt" MODIFIED="1424240987083" TEXT="https://github.com/gruntjs/grunt-cli/blob/master/bin/grunt"/>
+</node>
+</node>
+<node CREATED="1422715090333" ID="ID_1855677672" MODIFIED="1422715105416" TEXT="build &#xc0dd;&#xc131; &#xacb0;&#xacfc;&#xbb3c; &#xccb4;&#xd06c;">
+<node CREATED="1424231711196" ID="ID_1395819631" MODIFIED="1424231723878" TEXT="bower&#xb85c; &#xc124;&#xce58;&#xd55c; &#xd328;&#xd0a4;&#xc9c0;&#xb294; &#xc5b4;&#xb5bb;&#xac8c; minification &#xd558;&#xb098;?"/>
+</node>
+<node CREATED="1422715131499" ID="ID_766602939" MODIFIED="1422715144863" TEXT="build &#xacb0;&#xacfc; deploy &#xbc29;&#xbc95; &#xd655;&#xc778;">
+<node CREATED="1424231700494" ID="ID_589900479" MODIFIED="1424231706927" TEXT="dist &#xbc84;&#xc804; &#xc2e4;&#xd589; &#xbc29;&#xbc95;"/>
+</node>
+<node CREATED="1422715105634" ID="ID_159280092" MODIFIED="1422715115278" TEXT="test &#xc2a4;&#xd06c;&#xb9bd;&#xd2b8; &#xc791;&#xc131;">
+<node CREATED="1424129912087" ID="ID_1121017489" MODIFIED="1424518314483" TEXT="Karma &#xc18c;&#xac1c;">
+<node CREATED="1424530891545" ID="ID_1787495561" LINK="http://karma-runner.github.io/0.12/intro/how-it-works.html" MODIFIED="1424530893876" TEXT="karma-runner.github.io &gt; 0.12 &gt; Intro &gt; How-it-works"/>
+<node CREATED="1424439551037" ID="ID_56823371" MODIFIED="1424439595724" TEXT="&#xd574;&#xb2f9; &#xd398;&#xc774;&#xc9c0;&#xc5d0;&#xc11c; Karma&#xc758; &#xbaa8;&#xb4e0; &#xac83;&#xc744; &#xc124;&#xba85;&#xd558;&#xb294; &#xb17c;&#xbb38; &#xc81c;&#xacf5;">
+<node CREATED="1424439611087" ID="ID_56924671" LINK="https://github.com/karma-runner/karma/raw/master/thesis.pdf" MODIFIED="1424439611087" TEXT="https://github.com/karma-runner/karma/raw/master/thesis.pdf"/>
+<node CREATED="1424439625860" ID="ID_425413027" MODIFIED="1424471828911" TEXT="&#xc800;&#xc790; &#xc9c1;&#xac15;, &#xc11d;&#xc0ac; &#xb17c;&#xbb38;"/>
+</node>
+<node CREATED="1424474188918" ID="ID_1163522256" MODIFIED="1424474194851" TEXT="Karma&#xb294; Test Runner"/>
+</node>
+<node CREATED="1424474199700" ID="ID_193891209" MODIFIED="1424518308202" TEXT="Jasmine &#xc0ac;&#xc6a9;&#xbc95;">
+<node CREATED="1424502375611" ID="ID_1486226603" LINK="http://jasmine.github.io/2.2/introduction.html" MODIFIED="1424502375611" TEXT="jasmine.github.io &gt; 2.2 &gt; Introduction"/>
+</node>
+<node CREATED="1424530240151" ID="ID_362660946" MODIFIED="1424530263360" TEXT="backbone app &#xd14c;&#xc2a4;&#xd2b8;&#xd558;&#xae30;">
+<node CREATED="1424530314714" ID="ID_766752776" MODIFIED="1424530317945" TEXT="Your quick guide to better JavaScript testing">
+<node CREATED="1424530844249" ID="ID_1525037277" LINK="http://www.infoworld.com/article/2610432/application-development/your-quick-guide-to-better-javascript-testing.html?page=2" MODIFIED="1424530847864" TEXT="infoworld.com &gt; Article &gt; 2610432 &gt; Application-development &gt; Your-quick-guide-to-better-javascript-testing ? ..."/>
+<node CREATED="1424530324011" ID="ID_111082935" MODIFIED="1424530333341" TEXT="2014-03-13"/>
+<node CREATED="1424530577229" ID="ID_1373440086" MODIFIED="1424530586014" TEXT="karma">
+<node CREATED="1424530613359" ID="ID_101602000" MODIFIED="1424530615772" TEXT="test runner"/>
+</node>
+<node CREATED="1424530595787" ID="ID_348509814" MODIFIED="1424530598620" TEXT="jasmine">
+<node CREATED="1424530617630" ID="ID_454519538" MODIFIED="1424530620684" TEXT="test framework"/>
+</node>
+<node CREATED="1424530598978" ID="ID_178889307" MODIFIED="1424530603010" TEXT="jasmine-jquery">
+<node CREATED="1424530623002" ID="ID_324489567" MODIFIED="1424530667048" TEXT="DOM, html, json &#xccb4;&#xd06c;"/>
+</node>
+<node CREATED="1424530677154" ID="ID_1893401099" MODIFIED="1424530679526" TEXT="sinon.js">
+<node CREATED="1424530681685" ID="ID_75457353" MODIFIED="1424530691730" TEXT="XHR &#xccb4;&#xd06c;"/>
+</node>
+<node CREATED="1424530603648" ID="ID_1329494005" MODIFIED="1424530607861" TEXT="istanbul">
+<node CREATED="1424530647990" ID="ID_1387887793" MODIFIED="1424530669479" TEXT="code coverage &#xccb4;&#xd06c;"/>
+</node>
+</node>
+<node CREATED="1424530786002" ID="ID_273780384" MODIFIED="1424530786794" TEXT="Testing A Backbone App with Karma">
+<node CREATED="1424530790565" ID="ID_1510730170" LINK="http://osintegrators.com/node/322" MODIFIED="1424530790565" TEXT="osintegrators.com &gt; Node &gt; 322"/>
+<node CREATED="1424532288011" ID="ID_42297105" MODIFIED="1424532297258" TEXT="2014-03-12"/>
+</node>
+<node CREATED="1424532255859" ID="ID_320159422" MODIFIED="1424533041099" TEXT="Testing Backbone applications with Jasmine and Sinon &#x2013; Part 1, 2, 3">
+<node CREATED="1424532259933" ID="ID_588379777" LINK="http://tinnedfruit.com/2011/03/03/testing-backbone-apps-with-jasmine-sinon.html" MODIFIED="1424532259933" TEXT="tinnedfruit.com &gt; 2011 &gt; 03 &gt; 03 &gt; Testing-backbone-apps-with-jasmine-sinon"/>
+<node CREATED="1424532262823" ID="ID_10351302" MODIFIED="1424532270382" TEXT="2011-03-03"/>
+</node>
+</node>
+</node>
 <node CREATED="1422715115526" ID="ID_764588257" MODIFIED="1422715127831" TEXT="test &#xacb0;&#xacfc; &#xccb4;&#xd06c;"/>
 </node>
 </node>
 </node>
-<node CREATED="1422715190689" ID="ID_1013298137" MODIFIED="1422722075383" POSITION="right" TEXT="support node operation (add/update/delete)">
+<node CREATED="1422715190689" ID="ID_1013298137" MODIFIED="1424060652335" POSITION="right" TEXT="implement UX">
 <node CREATED="1422715202102" ID="ID_668488229" MODIFIED="1422721709168" TEXT="design app-architecture with Backbone.js"/>
 <node CREATED="1424058125073" ID="ID_1820447360" MODIFIED="1424058162948" TEXT="generate node view with hard-coded static freemind data">
 <node CREATED="1422715241119" ID="ID_1694203287" MODIFIED="1424058191885" TEXT="check feasibility of utilizing template-lib for UI generation"/>
 </node>
-<node CREATED="1422721883085" ID="ID_747160468" MODIFIED="1424058173769" TEXT="implement node folding/unfolding UX"/>
+<node CREATED="1422721883085" ID="ID_747160468" MODIFIED="1424059147957" TEXT="implement folding/unfolding node UX"/>
 <node CREATED="1422721843321" ID="ID_485553699" MODIFIED="1424058221243" TEXT="implement specifying mind-map URL UX"/>
 </node>
 </node>
