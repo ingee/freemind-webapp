@@ -381,21 +381,44 @@
 </node>
 <node CREATED="1422715190689" ID="ID_1013298137" MODIFIED="1424060652335" POSITION="right" TEXT="implement UX">
 <node CREATED="1422715202102" ID="ID_668488229" MODIFIED="1422721709168" TEXT="design app-architecture with Backbone.js">
-<node CREATED="1424590017004" ID="ID_1121339443" MODIFIED="1424590018236" TEXT="ref">
-<node CREATED="1424590080289" ID="ID_613859393" MODIFIED="1424590081751" TEXT="BackboneJS with XML ajax">
+<node CREATED="1424590143213" ID="ID_1713417774" MODIFIED="1427816635990" TEXT="XML to Model &#xbcc0;&#xd658; &#xbc29;&#xbc95;&#xc744; &#xcc3e;&#xc790;">
+<node CREATED="1424590080289" ID="ID_613859393" MODIFIED="1427816593586" TEXT="BackboneJS with XML ajax">
 <node CREATED="1424590085359" ID="ID_1753471930" LINK="http://stackoverflow.com/questions/8419061/backbonejs-with-xml-ajax" MODIFIED="1424590085359" TEXT="stackoverflow.com &gt; Questions &gt; 8419061 &gt; Backbonejs-with-xml-ajax"/>
 <node CREATED="1424590088210" ID="ID_677047187" MODIFIED="1424590108818" TEXT="collection.parse&#xb97c; override&#xd558;&#xc5ec; xml &#xcc98;&#xb9ac;&#xd558;&#xb294; &#xbc29;&#xbc95;&#xc5d0; &#xb300;&#xd55c; Q&amp;A"/>
 </node>
-</node>
-<node CREATED="1424590128262" ID="ID_552105304" MODIFIED="1424590141806" TEXT="let&apos;s">
-<node CREATED="1424590143213" ID="ID_1713417774" MODIFIED="1424596582480" TEXT="&#xc77c;&#xb2e8;, MM &#xd30c;&#xc77c; read-only&#xb97c; &#xbaa9;&#xd45c;&#xb85c; &#xd558;&#xba74; &#xc88b;&#xaca0;&#xb2e4;">
 <node CREATED="1424590185484" ID="ID_1348930350" MODIFIED="1424590190466" TEXT="sync &#xd568;&#xc218; override"/>
+<node CREATED="1427816598699" ID="ID_1250958090" MODIFIED="1427816599623" TEXT="&#xc77c;&#xb2e8;, MM &#xd30c;&#xc77c; read-only&#xb97c; &#xbaa9;&#xd45c;&#xb85c; &#xd558;&#xba74; &#xc88b;&#xaca0;&#xb2e4;"/>
 <node CREATED="1424596484781" ID="ID_925445843" MODIFIED="1424596574312" TEXT="dropbox&#xc5d0; &#xb9c1;&#xd06c;&#xb41c; MM &#xd30c;&#xc77c;&#xc744; &#xc218;&#xc815;/write &#xd558;&#xb294; &#xac83;&#xc740; &#xb2e4;&#xc74c; &#xb2e8;&#xacc4; &#xbaa9;&#xd45c;"/>
 </node>
+<node CREATED="1427811394945" ID="ID_970868739" MODIFIED="1427816639470" TEXT="backbone.js web-app&#xc5d0;&#xc11c; template&#xc744; &#xc4f0;&#xb294; best practice&#xb97c; &#xcc3e;&#xc790;">
+<node CREATED="1427811453641" ID="ID_629201695" MODIFIED="1427814843054" TEXT="template&#xc744; &#xc5b4;&#xb514;&#xc5d0; &#xc800;&#xc7a5;&#xd558;&#xb098;?">
+<node CREATED="1427811427984" ID="ID_642844319" MODIFIED="1427811435415" TEXT="html&#xc5d0; &#xcd94;&#xac00;?"/>
+<node CREATED="1427811437073" ID="ID_432480001" MODIFIED="1427811439669" TEXT="js&#xc5d0; &#xcd94;&#xac00;?"/>
+<node CREATED="1427811422325" ID="ID_1049825080" MODIFIED="1427811427736" TEXT="&#xbcc4;&#xb3c4;&#xc758; &#xd30c;&#xc77c;&#xb85c; &#xbd84;&#xb9ac;?"/>
+<node CREATED="1427815644561" ID="ID_514468687" MODIFIED="1427815650715" TEXT="3 Tips For Writing Better Backbone Views">
+<node CREATED="1427815608951" ID="ID_1941430580" MODIFIED="1427815611326" TEXT="http://kilon.org/blog/2012/11/3-tips-for-writing-better-backbone-views/"/>
+<node CREATED="1427815652765" ID="ID_369365657" MODIFIED="1427816099912" TEXT="2013-11-11"/>
+<node CREATED="1427815664129" ID="ID_1162742019" MODIFIED="1427815821348" TEXT="view js &#xd30c;&#xc77c;&#xc5d0; string&#xc73c;&#xb85c; &#xc800;&#xc7a5;&#xd558;&#xb294; &#xbc29;&#xbc95; &#xcd94;&#xcc9c;">
+<node CREATED="1427815693388" ID="ID_1981271255" MODIFIED="1427815777071" TEXT="&#xac1d;&#xccb4; &#xc9c0;&#xd5a5; &#xad00;&#xc810;&#xc5d0;&#xc11c; html &#xd30c;&#xc77c;&#xc5d0; &#xc5ec;&#xb7ec; template&#xb4e4;&#xc744; &#xbaa8;&#xc73c;&#xb294; &#xac83;&#xbcf4;&#xb2e4;,"/>
+<node CREATED="1427815777985" ID="ID_937438777" MODIFIED="1427815778863" TEXT="&#xd574;&#xb2f9; view &#xd30c;&#xc77c;&#xc5d0; &#xd574;&#xb2f9; template&#xc744; &#xc800;&#xc7a5;&#xd558;&#xb294; &#xac83;&#xc774; &#xc88b;&#xb2e4;&#xace0; &#xc0dd;&#xac01;"/>
+<node CREATED="1427815780289" ID="ID_306359591" MODIFIED="1427815812259" TEXT="requireJS &#xb4f1; &#xbaa8;&#xb4c8; &#xad00;&#xb9ac; framework&#xc744; &#xc4f0;&#xb294; &#xac83;&#xbcf4;&#xb2e4; &#xac04;&#xd3b8;&#xd558;&#xb2e4;&#xace0; &#xc0dd;&#xac01;"/>
 </node>
 </node>
-<node CREATED="1424058125073" ID="ID_1820447360" MODIFIED="1424058162948" TEXT="generate node view with hard-coded static freemind data">
+</node>
+</node>
+<node CREATED="1427811476935" ID="ID_1138486282" MODIFIED="1427811487856" TEXT="unit test&#xb97c; &#xc815;&#xc758;&#xd558;&#xc790;">
+<node CREATED="1427811493454" ID="ID_1758978367" MODIFIED="1427811500631" TEXT="view &#xd14c;&#xc2a4;&#xd2b8; &#xbc29;&#xbc95;?"/>
+<node CREATED="1428596755183" ID="ID_1622875458" MODIFIED="1428596772837" TEXT="TDD With Backbone: Views">
+<node CREATED="1428596734602" ID="ID_815716996" MODIFIED="1428596737368" TEXT="http://addyosmani.github.io/backbone-fundamentals/#views-2"/>
+<node CREATED="1428601883105" ID="ID_1703397673" MODIFIED="1428601918667" TEXT="initialization, rendering, templating &#xb2e8;&#xacc4;&#xc5d0; &#xb300;&#xd55c; &#xd14c;&#xc2a4;&#xd2b8; &#xd544;&#xc694;"/>
+</node>
+</node>
+</node>
+<node CREATED="1424058125073" ID="ID_1820447360" MODIFIED="1430709904987" TEXT="implement generating node-view-tree from hard-coded static freemind data">
 <node CREATED="1422715241119" ID="ID_1694203287" MODIFIED="1424058191885" TEXT="check feasibility of utilizing template-lib for UI generation"/>
+<node CREATED="1431009247334" ID="ID_678259550" MODIFIED="1431009291033" TEXT="NodeCollection&#xc5d0;&#xb294; Node*&#xc640; NodeCollection*&#xc774; &#xbaa8;&#xb450; &#xc62c; &#xc218; &#xc788;&#xc5b4;&#xc57c; &#xd55c;&#xb2e4;">
+<icon BUILTIN="messagebox_warning"/>
+</node>
 </node>
 <node CREATED="1422721883085" ID="ID_747160468" MODIFIED="1424059147957" TEXT="implement folding/unfolding node UX"/>
 <node CREATED="1422721843321" ID="ID_485553699" MODIFIED="1424058221243" TEXT="implement specifying mind-map URL UX"/>
