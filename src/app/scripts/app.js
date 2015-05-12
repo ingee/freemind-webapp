@@ -1,6 +1,5 @@
 'use strict';
 
-var $ = $ || {};
 var sampleMindMapData = 
   '<map version="0.9.0">' +
   '<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->' +
@@ -15,7 +14,20 @@ var sampleMindMapData =
   '</node>' +
   '</map>'; 
 
-$(function(){
-  console.log('let\'s go ingee !');
-  console.log(sampleMindMapData);
+var $ = $ || {};
+var Backbone = Backbone || {};
+var app = new (Backbone.Router.extend({
+  initialize: function() {
+    console.log('app.initialize');
+  },
+  start: function() {
+    console.log('let\'s go ingee !');
+    console.log(sampleMindMapData);
+    Backbone.history.start();
+  }
+}))();
+
+$(function() {
+  app.start();
 });
+
