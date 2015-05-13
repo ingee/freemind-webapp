@@ -20,6 +20,8 @@ module.exports = function(config) {
     files: [
       "bower_components/intel-appframework/appframework.min.js",
       "bower_components/intel-appframework/build/ui/appframework.ui.min.js",
+      "bower_components/underscore/underscore.js",
+      "bower_components/backbone/backbone.js",
       'app/scripts/**/*.js',
       'test/spec/**/*.js'
     ],
