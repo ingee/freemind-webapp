@@ -1322,7 +1322,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="tRNrvzyT/EKnqa3nScmvbQAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="5ITyPRYOcUmbNcNU398UiAAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">App</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">MindRouter</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="V8VD5NNSUUaqDSjmis3zZgAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -2185,7 +2185,7 @@
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[9]" type="UMLClass" guid="ubG+G4UfT02PlnTYOlmtpgAA">
-<XPD:ATTR name="Name" type="string">App</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">MindRouter</XPD:ATTR>
 <XPD:REF name="Namespace">pI3E4GR3r0S80Qe4enDPZAAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">1aw/7dlveEqmXCOpY0MqDQAA</XPD:REF>

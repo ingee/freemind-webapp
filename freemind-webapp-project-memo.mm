@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1403439643166" ID="ID_241255190" MODIFIED="1421073259891" TEXT="FreeMind WebApp">
 <font NAME="&#xad74;&#xb9bc;" SIZE="12"/>
-<node CREATED="1416839599227" ID="ID_1145239056" MODIFIED="1422714298481" POSITION="right" TEXT="feasibility test">
+<node CREATED="1416839599227" ID="ID_1145239056" MODIFIED="1431825206811" POSITION="right" TEXT="feasibility test">
 <font NAME="&#xad74;&#xb9bc;" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 <node CREATED="1403439654992" FOLDED="true" ID="ID_1289525172" MODIFIED="1421073259879" TEXT="xml parsing">
@@ -39,7 +39,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1416835594914" ID="ID_784419373" MODIFIED="1431438258738" TEXT="&#xac1c;&#xbc1c;&#xd658;&#xacbd; &#xad6c;&#xcd95;">
+<node CREATED="1416835594914" FOLDED="true" ID="ID_784419373" MODIFIED="1431825208334" TEXT="&#xac1c;&#xbc1c;&#xd658;&#xacbd; &#xad6c;&#xcd95;">
 <font NAME="&#xad74;&#xb9bc;" SIZE="12"/>
 <node CREATED="1416839536420" FOLDED="true" ID="ID_1347068732" MODIFIED="1421073259880" TEXT="todo">
 <font NAME="&#xad74;&#xb9bc;" SIZE="12"/>
