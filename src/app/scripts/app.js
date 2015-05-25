@@ -18,9 +18,10 @@ var App = {
     '</map>', 
 
   start: function() {
-    console.log('app.start');
-    console.log('sample-data: '+ this.sampleMindMapData);
+    console.log('app.start()');
+    this.router = new this.Router();
     Backbone.history.start();
+    window.location.href = '#mindmap/freemind-test.mm';
   }
 };
 
