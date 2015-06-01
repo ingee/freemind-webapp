@@ -416,8 +416,13 @@
 </node>
 <node CREATED="1424058125073" ID="ID_1820447360" MODIFIED="1430709904987" TEXT="implement generating node-view-tree from hard-coded static freemind data">
 <node CREATED="1422715241119" ID="ID_1694203287" MODIFIED="1424058191885" TEXT="check feasibility of utilizing template-lib for UI generation"/>
-<node CREATED="1431009247334" ID="ID_678259550" MODIFIED="1431009291033" TEXT="NodeCollection&#xc5d0;&#xb294; Node*&#xc640; NodeCollection*&#xc774; &#xbaa8;&#xb450; &#xc62c; &#xc218; &#xc788;&#xc5b4;&#xc57c; &#xd55c;&#xb2e4;">
+<node CREATED="1431009247334" ID="ID_678259550" MODIFIED="1432739036882" TEXT="NodeCollection&#xc5d0;&#xb294; Node*&#xc640; NodeCollection*&#xc774; &#xbaa8;&#xb450; &#xc62c; &#xc218; &#xc788;&#xc5b4;&#xc57c; &#xd55c;&#xb2e4;">
 <icon BUILTIN="messagebox_warning"/>
+</node>
+<node CREATED="1432738976736" ID="ID_459183922" MODIFIED="1432739028561" TEXT="recursive Model &#xad6c;&#xd604; &#xbc29;&#xbc95;&#xc744; &#xcc3e;&#xc790;">
+<icon BUILTIN="messagebox_warning"/>
+<node CREATED="1433191932710" ID="ID_1175070254" MODIFIED="1433191982113" TEXT="model, collection &#xad00;&#xacc4; &#xac80;&#xc99d;"/>
+<node CREATED="1433191961376" ID="ID_339439302" MODIFIED="1433191970518" TEXT="mode-view, collection-view &#xad00;&#xacc4; &#xac80;&#xc99d;"/>
 </node>
 </node>
 <node CREATED="1422721883085" ID="ID_747160468" MODIFIED="1424059147957" TEXT="implement folding/unfolding node UX"/>

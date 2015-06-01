@@ -4,6 +4,16 @@ var Backbone = Backbone || {};
 var App = App || {};
 
 App.MindNodeCollection = Backbone.Collection.extend({
-  model: App.MindNode
+  model: App.MindNode,
+
+  hello: function() {
+    if (this.length <= 0)
+      return;
+    console.log('---hello, collection---');
+    this.each(function(model) {
+      model.hello();
+    });
+    console.log('---collection end---');
+  }
 });
 
