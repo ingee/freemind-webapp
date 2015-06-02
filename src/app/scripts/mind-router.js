@@ -2,6 +2,7 @@
 
 var Backbone = Backbone || {};
 var App = App || {};
+var $ = $ || {};
 
 App.Router = Backbone.Router.extend({
   routes: { 
@@ -31,6 +32,9 @@ App.Router = Backbone.Router.extend({
     b.addNode(sub3);
     console.log('MindNode tree ready!');
     root.hello();
+
+    App.rootvw = new App.MindNodeView({ model: root });
+    $('#mindmap').append(App.rootvw.render());
   }
 });
 
