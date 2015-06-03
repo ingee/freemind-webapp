@@ -5,8 +5,7 @@ var App = App || {};
 
 App.MindNode = Backbone.Model.extend({
   defaults: {
-    text: '',
-    childNodes: null
+    text: ''
   },
 
   initialize: function() {

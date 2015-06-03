@@ -4,11 +4,15 @@ var Backbone = Backbone || {};
 var App = App || {};
 
 App.MindNodeView = Backbone.View.extend({
-  id: 'mindmap',
-
   render: function() {
-    this.$el.html(this.model.get('text'));
-    return this.$el;
+    var htmlStr = '<li><div><span>' + 
+      this.model.get('text') + 
+      '</span><ul class="list"></ul></div></li>';
+    this.$el.html(htmlStr);
+    var childVw = 
+      new App.MindNodeCollectionView({ collection: this.model.childNodes });
+    this.$el.select('ul.list').append( childVw.render().el );
+    return this;
   }
 });
 

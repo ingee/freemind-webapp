@@ -33,8 +33,8 @@ App.Router = Backbone.Router.extend({
     console.log('MindNode tree ready!');
     root.hello();
 
-    App.rootvw = new App.MindNodeView({ model: root });
-    $('#mindmap').append(App.rootvw.render());
+    var rootvw = new App.MindNodeView({ model: root });
+    $('#mindmap').append(rootvw.render().el);
   }
 });
 
