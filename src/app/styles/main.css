@@ -1,3 +1,12 @@
+/* freemind webapp */
+#afui .list li {
+  padding: 0px 0px 0px 20px;
+}
+#afui .list {
+  margin-bottom: 2px;
+  border-left: 1px solid red;
+}
+
 /* Space out content a bit */
 body {
   padding-top: 20px;

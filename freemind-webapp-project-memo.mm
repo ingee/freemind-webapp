@@ -422,8 +422,8 @@
 <node CREATED="1433191932710" ID="ID_1175070254" MODIFIED="1433256026324" TEXT="model, collection &#xad00;&#xacc4; &#xac80;&#xc99d;">
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1433191961376" ID="ID_339439302" MODIFIED="1433260275912" TEXT="mode-view, collection-view &#xad00;&#xacc4; &#xac80;&#xc99d;">
-<icon BUILTIN="messagebox_warning"/>
+<node CREATED="1433191961376" ID="ID_339439302" MODIFIED="1433635264775" TEXT="mode-view, collection-view &#xad00;&#xacc4; &#xac80;&#xc99d;">
+<icon BUILTIN="button_ok"/>
 </node>
 </node>
 <node CREATED="1422715241119" ID="ID_1694203287" MODIFIED="1433256013958" TEXT="check feasibility of utilizing template-lib for UI generation"/>

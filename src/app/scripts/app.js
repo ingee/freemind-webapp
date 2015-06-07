@@ -17,20 +17,6 @@ var App = {
     '<node CREATED="1406119939270" ID="ID_442146008" MODIFIED="1406119942491" POSITION="right" TEXT="&#xc774;&#xac83;&#xc740; C"/>' +
     '</node>' +
     '</map>', 
-  sampleMindMapJson: 
-    '{ "text": "new-map",' +
-      '"childNodes":' +
-        '[ { "text": "this is A" },' +
-          '{ "text": "this is B",' +
-            '"childNodes":' +
-              '[ { "text": "Sub-Sub-1" },' +
-                '{ "text": "Sub-Sub-2" },' +
-                '{ "text": "Hello, World?" }' +
-              ']' +
-          '},' +
-          '{ "text": "this is C" }' +
-        ']' +
-    '}',
 
   start: function() {
     console.log('app.start()');

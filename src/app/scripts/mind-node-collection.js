@@ -10,7 +10,7 @@ App.MindNodeCollection = Backbone.Collection.extend({
     if (this.length <= 0) {
       return;
     }
-    console.log('---hello, collection---');
+    console.log('---collection bgn---');
     this.each(function(model) {
       model.hello();
     });

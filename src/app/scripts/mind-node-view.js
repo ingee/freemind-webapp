@@ -4,14 +4,26 @@ var Backbone = Backbone || {};
 var App = App || {};
 
 App.MindNodeView = Backbone.View.extend({
+  tagName: 'li',
+
   render: function() {
-    var htmlStr = '<li><div><span>' + 
-      this.model.get('text') + 
-      '</span><ul class="list"></ul></div></li>';
+    var htmlStr = '';
+    if (this.model.childNodes.length) {
+      htmlStr += '<span class="icon down">';
+    }
+    else {
+      htmlStr += '<span class="icon minimize">';
+    }
+    htmlStr += this.model.get('text');
+    htmlStr += '</span>';
     this.$el.html(htmlStr);
-    var childVw = 
-      new App.MindNodeCollectionView({ collection: this.model.childNodes });
-    this.$el.select('ul.list').append( childVw.render().el );
+
+    if (this.model.childNodes.length) {
+      var childVw = new App.MindNodeCollectionView({ 
+        collection: this.model.childNodes 
+      });
+      this.$el.select('ul.list').append( childVw.render().el );
+    }
     return this;
   }
 });

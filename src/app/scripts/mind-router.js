@@ -15,7 +15,6 @@ App.Router = Backbone.Router.extend({
 
   generateNodeTree: function(url) {
     console.log('router.gnerateNodeTree( url=' + url + ' )');
-    console.log('sample-data: '+ App.sampleMindMapData);
 
     var root = new App.MindNode({text: 'new-map'});
     var a = new App.MindNode({text: 'this is A'});
@@ -31,10 +30,11 @@ App.Router = Backbone.Router.extend({
     b.addNode(sub2);
     b.addNode(sub3);
     console.log('MindNode tree ready!');
-    root.hello();
 
     var rootvw = new App.MindNodeView({ model: root });
-    $('#mindmap').append(rootvw.render().el);
+    $('#mindmap-list').html('');
+    $('#mindmap-list').append(rootvw.render().el);
+    console.log('MindNode tree rendered!');
   }
 });
 
