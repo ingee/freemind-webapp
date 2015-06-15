@@ -6,7 +6,7 @@ var $ = $ || {};
 
 App.Router = Backbone.Router.extend({
   routes: { 
-    'mindmap/:url': 'generateNodeTree'
+    'main/:url': 'generateNodeTree'
   },
 
   initialize: function() {

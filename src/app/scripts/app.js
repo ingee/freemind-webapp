@@ -22,7 +22,7 @@ var App = {
     console.log('app.start()');
     this.router = new this.Router();
     Backbone.history.start();
-    window.location.href = '#mindmap/freemind-test.mm';
+    window.location.href = '#main/freemind-test.mm';
   }
 };
 
