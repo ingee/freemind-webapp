@@ -418,7 +418,8 @@
 <node CREATED="1431009247334" ID="ID_678259550" MODIFIED="1433256005865" TEXT="NodeCollection&#xc5d0;&#xb294; Node*&#xc640; NodeCollection*&#xc774; &#xbaa8;&#xb450; &#xc62c; &#xc218; &#xc788;&#xc5b4;&#xc57c; &#xd55c;&#xb2e4;">
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1432738976736" ID="ID_459183922" MODIFIED="1433260280110" TEXT="recursive Model &#xad6c;&#xd604; &#xbc29;&#xbc95;&#xc744; &#xcc3e;&#xc790;">
+<node CREATED="1432738976736" ID="ID_459183922" MODIFIED="1434333408660" TEXT="recursive Model &#xad6c;&#xd604; &#xbc29;&#xbc95;&#xc744; &#xcc3e;&#xc790;">
+<icon BUILTIN="button_ok"/>
 <node CREATED="1433191932710" ID="ID_1175070254" MODIFIED="1433256026324" TEXT="model, collection &#xad00;&#xacc4; &#xac80;&#xc99d;">
 <icon BUILTIN="button_ok"/>
 </node>
@@ -426,6 +427,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
+<node CREATED="1434333411305" ID="ID_860747189" MODIFIED="1434333434085" TEXT="find way for transforming xml to model"/>
 <node CREATED="1422715241119" ID="ID_1694203287" MODIFIED="1433256013958" TEXT="check feasibility of utilizing template-lib for UI generation"/>
 </node>
 <node CREATED="1422721883085" ID="ID_747160468" MODIFIED="1424059147957" TEXT="implement folding/unfolding node UX"/>
