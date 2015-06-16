@@ -18,6 +18,19 @@ var App = {
     '</node>' +
     '</map>', 
 
+  sampleObj: {
+    text: 'new-map',
+    childNodes: [
+      { text: 'this is A', childNodes: null },
+      { text: 'this is B', childNodes: [
+        { text: 'this is Sub-Sub-1', childNodes: null },
+        { text: 'this is Sub-Sub-2', childNodes: null },
+        { text: 'Hello, World?', childNodes: null}
+      ]},
+      { text: 'this is C', childNodes: null }
+    ]
+  },
+
   start: function() {
     console.log('app.start()');
     this.router = new this.Router();
