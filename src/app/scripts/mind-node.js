@@ -12,7 +12,8 @@ app.MindNode = Backbone.Model.extend({
     obj = obj || {};
     option = option || {};
 
-    console.log('model({text:'+ this.get('text')+ '}).initialize(obj), obj='+ JSON.stringify(obj));
+    console.log('model({text:'+ this.get('text')+ '}).initialize(obj), obj='+ 
+        JSON.stringify(obj));
     this.childNodes = new app.MindNodeCollection();
     if (obj.childNodes) {
       var child,
@@ -25,14 +26,17 @@ app.MindNode = Backbone.Model.extend({
   },
 
   addNode: function(node) {
-    console.log('model({text:'+ this.get('text')+ '}).addNode(node), node='+ JSON.stringify(node));
+    console.log('model({text:'+ this.get('text')+ '}).addNode(node), node='+ 
+        JSON.stringify(node));
     this.childNodes.add(node);
   },
 
   parse: function(response) {
-    console.log('model({text:'+ this.get('text')+ '}).parse(response), response='+ response);
+    console.log('model({text:'+ this.get('text')+ '}).parse(response), response='+ 
+        response);
     var result = this.parseXml(response);
-    console.log('..model({text:'+ this.get('text')+ '}).parse(response), result='+ JSON.stringify(result));
+    console.log('..model({text:'+ this.get('text')+ '}).parse(response), result='+ 
+        JSON.stringify(result));
     return result;
   },
 
@@ -51,60 +55,60 @@ app.MindNode = Backbone.Model.extend({
       }
     }
     else {
-        throw 'cannot parse xml string!';
+      throw 'cannot parse xml string!';
     }
 
-      function isArray(o) {
-          return Object.prototype.toString.apply(o) === '[object Array]';
+    function isArray(o) {
+      return Object.prototype.toString.apply(o) === '[object Array]';
+    }
+
+    function parseNode(xmlNode, result) {
+      if (xmlNode.nodeName === '#text' && xmlNode.nodeValue.trim() === '') {
+        return;
       }
 
-      function parseNode(xmlNode, result) {
-          if (xmlNode.nodeName === '#text' && xmlNode.nodeValue.trim() === '') {
-              return;
-          }
-
-          var jsonNode = {};
-          var existing = result[xmlNode.nodeName];
-          if (existing) {
-              if (!isArray(existing)) {
-                  result[xmlNode.nodeName] = [existing, jsonNode];
-              }
-              else {
-                  result[xmlNode.nodeName].push(jsonNode);
-              }
-          }
-          else {
-              if (arrayTags && arrayTags.indexOf(xmlNode.nodeName) !== -1) {
-                  result[xmlNode.nodeName] = [jsonNode];
-              }
-              else {
-                  result[xmlNode.nodeName] = jsonNode;
-              }
-          }
-
-          var i, length;
-          if (xmlNode.attributes) {
-              var attribute;
-              length = xmlNode.attributes.length;
-              for (i = 0; i < length; i++) {
-                  attribute = xmlNode.attributes[i];
-                  jsonNode[attribute.nodeName] = attribute.nodeValue;
-              }
-          }
-
-          length = xmlNode.childNodes.length; 
-          for (i = 0; i < length; i++)
-          {
-              parseNode(xmlNode.childNodes[i], jsonNode);
-          }
+      var jsonNode = {};
+      var existing = result[xmlNode.nodeName];
+      if (existing) {
+        if (!isArray(existing)) {
+          result[xmlNode.nodeName] = [existing, jsonNode];
+        }
+        else {
+          result[xmlNode.nodeName].push(jsonNode);
+        }
+      }
+      else {
+        if (arrayTags && arrayTags.indexOf(xmlNode.nodeName) !== -1) {
+          result[xmlNode.nodeName] = [jsonNode];
+        }
+        else {
+          result[xmlNode.nodeName] = jsonNode;
+        }
       }
 
-      var result = {};
-      if (dom.childNodes.length) {
-          parseNode(dom.childNodes[0], result);
+      var i, length;
+      if (xmlNode.attributes) {
+        var attribute;
+        length = xmlNode.attributes.length;
+        for (i = 0; i < length; i++) {
+          attribute = xmlNode.attributes[i];
+          jsonNode[attribute.nodeName] = attribute.nodeValue;
+        }
       }
 
-      return result;
+      length = xmlNode.childNodes.length; 
+      for (i = 0; i < length; i++)
+      {
+        parseNode(xmlNode.childNodes[i], jsonNode);
+      }
+    }
+
+    var result = {};
+    if (dom.childNodes.length) {
+      parseNode(dom.childNodes[0], result);
+    }
+
+    return result;
   },
 
   hello: function() {

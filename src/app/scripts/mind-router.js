@@ -17,6 +17,7 @@ app.Router = Backbone.Router.extend({
     console.log('router.gnerateNodeTree(url), url=' + url);
 
     console.log('..router.generateNodeTree(): preparing model tree');
+    //app.root = new app.MindNode(app.sampleObj);
     app.root = new app.MindNode(app.sampleXml, {parse:true});
 
     console.log('..router.generateNodeTree(): preparing view tree');
