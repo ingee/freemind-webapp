@@ -3,8 +3,8 @@
 var $ = $ || {};
 var Backbone = Backbone || {};
 
-var App = {
-  sampleMindMapData: 
+var app = {
+  sampleXml: 
     '<map version="0.9.0">' +
     '<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->' +
     '<node CREATED="3" ID="1" MODIFIED="2" TEXT="new-map">' +
@@ -41,6 +41,6 @@ var App = {
 
 $(function() { 
   console.log('ready!');
-  App.start(); 
+  app.start(); 
 });
 

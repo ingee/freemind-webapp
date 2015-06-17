@@ -1,9 +1,9 @@
 'use strict';
 
 var Backbone = Backbone || {};
-var App = App || {};
+var app = app || {};
 
-App.MindNodeView = Backbone.View.extend({
+app.MindNodeView = Backbone.View.extend({
   tagName: 'li',
 
   render: function() {
@@ -19,7 +19,7 @@ App.MindNodeView = Backbone.View.extend({
     this.$el.html(htmlStr);
 
     if (this.model.childNodes.length) {
-      var childVw = new App.MindNodeCollectionView({ 
+      var childVw = new app.MindNodeCollectionView({ 
         collection: this.model.childNodes 
       });
       this.$el.select('ul.list').append( childVw.render().el );

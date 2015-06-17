@@ -1,10 +1,10 @@
 'use strict';
 
 var Backbone = Backbone || {};
-var App = App || {};
+var app = app || {};
 var $ = $ || {};
 
-App.Router = Backbone.Router.extend({
+app.Router = Backbone.Router.extend({
   routes: { 
     'main/:url': 'generateNodeTree'
   },
@@ -17,12 +17,12 @@ App.Router = Backbone.Router.extend({
     console.log('router.gnerateNodeTree(url), url=' + url);
 
     console.log('..router.generateNodeTree(): preparing model tree');
-    App.root = new App.MindNode(App.sampleObj);
+    app.root = new app.MindNode(app.sampleXml, {parse:true});
 
     console.log('..router.generateNodeTree(): preparing view tree');
-    App.rootvw = new App.MindNodeView({ model: App.root });
+    app.rootvw = new app.MindNodeView({ model: app.root });
     $('#mindmap-list').html('');
-    $('#mindmap-list').append(App.rootvw.render().el);
+    $('#mindmap-list').append(app.rootvw.render().el);
 
     console.log('..router.generateNodeTree(): completed!');
   }

@@ -1,10 +1,10 @@
 'use strict';
 
 var Backbone = Backbone || {};
-var App = App || {};
+var app = app || {};
 
-App.MindNodeCollection = Backbone.Collection.extend({
-  model: App.MindNode,
+app.MindNodeCollection = Backbone.Collection.extend({
+  model: app.MindNode,
 
   hello: function() {
     if (this.length <= 0) {
