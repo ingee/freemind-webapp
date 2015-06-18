@@ -414,7 +414,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1424058125073" ID="ID_1820447360" MODIFIED="1430709904987" TEXT="implement generating node-view-tree from hard-coded static freemind data">
+<node CREATED="1424058125073" ID="ID_1820447360" MODIFIED="1434630928977" TEXT="implement generating node-view-tree from hard-coded static freemind data">
+<icon BUILTIN="button_ok"/>
 <node CREATED="1431009247334" ID="ID_678259550" MODIFIED="1433256005865" TEXT="NodeCollection&#xc5d0;&#xb294; Node*&#xc640; NodeCollection*&#xc774; &#xbaa8;&#xb450; &#xc62c; &#xc218; &#xc788;&#xc5b4;&#xc57c; &#xd55c;&#xb2e4;">
 <icon BUILTIN="button_ok"/>
 </node>
@@ -427,11 +428,27 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1434333411305" ID="ID_860747189" MODIFIED="1434333434085" TEXT="find way for transforming xml to model"/>
+<node CREATED="1434333411305" ID="ID_860747189" MODIFIED="1434630904680" TEXT="find way for transforming xml to model">
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node CREATED="1422721883085" ID="ID_747160468" MODIFIED="1434634461387" TEXT="implement folding/unfolding node UX">
+<node CREATED="1434633714736" ID="ID_686972016" MODIFIED="1434634413705" TEXT="refine index.html"/>
 <node CREATED="1422715241119" ID="ID_1694203287" MODIFIED="1433256013958" TEXT="check feasibility of utilizing template-lib for UI generation"/>
 </node>
-<node CREATED="1422721883085" ID="ID_747160468" MODIFIED="1424059147957" TEXT="implement folding/unfolding node UX"/>
-<node CREATED="1422721843321" ID="ID_485553699" MODIFIED="1424058221243" TEXT="implement specifying mind-map URL UX"/>
+<node CREATED="1422721843321" ID="ID_485553699" MODIFIED="1424058221243" TEXT="implement specifying mind-map URL UX">
+<node CREATED="1434633632971" ID="ID_1959405134" MODIFIED="1434634499539" TEXT="try dropbox url">
+<icon BUILTIN="button_ok"/>
+<node CREATED="1434634136436" ID="ID_456753273" MODIFIED="1434634137871" TEXT="https://www.dropbox.com/s/w732z6h9cu9ctvw/test-mindmap.mm?dl=0"/>
+<node CREATED="1434634203063" ID="ID_1876988976" MODIFIED="1434634394829" TEXT="&#xc548;&#xb428;">
+<icon BUILTIN="yes"/>
+<node CREATED="1434634349402" ID="ID_1572669355" MODIFIED="1434634369577" TEXT="dropbox &#xb9c1;&#xd06c; &#xc811;&#xc18d;&#xc2dc; &quot;&#xb2e4;&#xc6b4;&#xb85c;&#xb4dc;&quot; &#xbc84;&#xd2bc; &#xd45c;&#xc2dc;"/>
+<node CREATED="1434634374827" ID="ID_1569333205" MODIFIED="1434634382892" TEXT="mm &#xb370;&#xc774;&#xd130;&#xb97c; &#xbc14;&#xb85c; &#xb0b4;&#xb824;&#xc8fc;&#xc9c0; &#xc54a;&#xc74c;"/>
+</node>
+</node>
+<node CREATED="1434633740073" ID="ID_757342711" MODIFIED="1434633762750" TEXT="put url-input-box to page"/>
+<node CREATED="1434634511901" ID="ID_1756021568" MODIFIED="1434634530658" TEXT="find way to load local file"/>
+</node>
 </node>
 </node>
 </map>
