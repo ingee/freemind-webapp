@@ -5,39 +5,47 @@ var app = app || {};
 
 app.MindNode = Backbone.Model.extend({
   defaults: {
-    text: ''
+    TEXT: ''
   },
 
   initialize: function(obj, option) {
     obj = obj || {};
     option = option || {};
+    option.parse = false; //we don't need additional xml parsing
 
-    console.log('model({text:'+ this.get('text')+ '}).initialize(obj), obj='+ 
-        JSON.stringify(obj));
+    console.log('model({TEXT:'+ this.get('TEXT')+ '}).initialize(obj, option)');
+    console.log('..obj='+ JSON.stringify(obj));
+    console.log('..option='+ JSON.stringify(option));
     this.childNodes = new app.MindNodeCollection();
-    if (obj.childNodes) {
-      var child,
-          i, length = obj.childNodes.length;
-      for (i = 0; i < length; i++) {
-        child = obj.childNodes[i];
-        this.addNode(new app.MindNode(child, option));
+
+    var children = this.attributes.node;
+    if (children) {
+      if (children instanceof Array) {
+        var child, i, length = children.length;
+        for (i = 0; i < length; i++) {
+          child = children[i];
+          this.addNode(new app.MindNode(child, option));
+        }
+      } 
+      else {
+        this.addNode(new app.MindNode(children, option));
       }
     }
   },
 
   addNode: function(node) {
-    console.log('model({text:'+ this.get('text')+ '}).addNode(node), node='+ 
-        JSON.stringify(node));
+    console.log('model({TEXT:'+ this.get('TEXT')+ '}).addNode(node)');
+    console.log('..node='+ JSON.stringify(node));
     this.childNodes.add(node);
   },
 
   parse: function(response) {
-    console.log('model({text:'+ this.get('text')+ '}).parse(response), response='+ 
-        response);
+    console.log('model({TEXT:'+ this.get('TEXT')+ '}).parse(response)');
+    console.log('..response='+ response);
     var result = this.parseXml(response);
-    console.log('..model({text:'+ this.get('text')+ '}).parse(response), result='+ 
-        JSON.stringify(result));
-    return result;
+    app.result = result;
+    console.log('..result='+ JSON.stringify(result.map.node));
+    return result.map.node;
   },
 
   parseXml: function(xml, arrayTags) {

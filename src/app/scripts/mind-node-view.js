@@ -14,7 +14,7 @@ app.MindNodeView = Backbone.View.extend({
     else {
       htmlStr += '<span class="icon minimize">';
     }
-    htmlStr += this.model.get('text');
+    htmlStr += this.model.get('TEXT');
     htmlStr += '</span>';
     this.$el.html(htmlStr);
 
