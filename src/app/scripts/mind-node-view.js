@@ -1,23 +1,22 @@
 'use strict';
 
 var Backbone = Backbone || {};
+var _ = _ || {};
 var app = app || {};
 
 app.MindNodeView = Backbone.View.extend({
   tagName: 'li',
 
+  template: _.template(
+    '<% if (typeof(node) !== "undefined" && node.length) { %>'+
+      '<span class="icon down">'+
+    '<% } else { %>'+
+      '<span class="icon minimize">'+
+    '<% } %><%= TEXT %></span>'
+  ),
+  
   render: function() {
-    var htmlStr = '';
-    if (this.model.childNodes.length) {
-      htmlStr += '<span class="icon down">';
-    }
-    else {
-      htmlStr += '<span class="icon minimize">';
-    }
-    htmlStr += this.model.get('TEXT');
-    htmlStr += '</span>';
-    this.$el.html(htmlStr);
-
+    this.$el.html( this.template(this.model.attributes) );
     if (this.model.childNodes.length) {
       var childVw = new app.MindNodeCollectionView({ 
         collection: this.model.childNodes 

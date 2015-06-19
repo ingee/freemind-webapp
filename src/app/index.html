@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
-    <link rel="stylesheet" type="text/css" href="bower_components/intel-appframework//build/css/icons.min.css" />
-    <link rel="stylesheet" type="text/css" href="bower_components/intel-appframework//build/css/af.ui.base.min.css"/>
+    <link rel="stylesheet" type="text/css" 
+      href="bower_components/intel-appframework//build/css/icons.min.css" />
+    <link rel="stylesheet" type="text/css" 
+      href="bower_components/intel-appframework//build/css/af.ui.base.min.css"/>
     <!-- bower:css -->
     <!-- endbower -->
     <!-- endbuild -->
@@ -18,7 +20,10 @@
   </head>
   <body ng-app="srcApp">
     <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. 
+        Please <a href="http://browsehappy.com/">upgrade your browser</a> 
+        to improve your experience.
+      </p>
     <![endif]-->
 
 
@@ -27,18 +32,23 @@
       <div id="header">
       </div>
       <div id="content">
-        <div data-title="freemind file" id="main" class="panel" selected="true">
+        <div data-title="FreeMind" id="main" class="panel" selected="true">
           <ul class="list" id="mindmap-list">
             <!-- maind-map will be here -->
           </ul>
         </div>
-        <div data-title="freemind chat" id="page2" class="panel">
+        <div data-title="About" id="about" class="panel">
           <h1>FreeMind is Great!</h1>
+          <h2>
+            FreeMind WebApp<br/>
+            designed by InGee<br/>
+            since 2015
+          </h2>
         </div>
       </div>
       <div id="navbar">
         <a href="#main" id="navbar_home" class="icon home">Home</a>
-        <a href="#page2" id="navbar_home" class="icon paper">Page2</a>
+        <a href="#about" id="navbar_home" class="icon info">About</a>
       </div>
     </div>
 
