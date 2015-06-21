@@ -21,8 +21,7 @@ dev env setup
 
 ---
 dev command (@src directory)
-test in browser : grunt serve
-build : grunt build
+- test in browser : grunt serve
+- build : grunt build
 
 (end)
-
