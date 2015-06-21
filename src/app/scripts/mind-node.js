@@ -11,46 +11,38 @@ app.MindNode = Backbone.Model.extend({
   initialize: function(obj, option) {
     obj = obj || {};
     option = option || {};
-    option.parse = false; //we don't need additional xml parsing
+    option.parse = false; // we already completed xml-parsing.
+                          // and don't need additional xml-parsing from now.
 
-    console.log('model({TEXT:'+ this.get('TEXT')+ '}).initialize(obj, option)');
-    console.log('..obj='+ JSON.stringify(obj));
-    console.log('..option='+ JSON.stringify(option));
     this.childNodes = new app.MindNodeCollection();
-
-    var children = this.attributes.node;
-    if (children) {
-      if (children instanceof Array) {
-        var child, i, length = children.length;
+    var node = this.attributes.node;
+    if (node) {
+      if (node instanceof Array) {
+        var i, length = node.length;
         for (i = 0; i < length; i++) {
-          child = children[i];
-          this.addNode(new app.MindNode(child, option));
+          this.addNode(new app.MindNode(node[i], option));
         }
       } 
       else {
-        this.addNode(new app.MindNode(children, option));
+        this.addNode(new app.MindNode(node, option));
       }
     }
   },
 
   addNode: function(node) {
-    console.log('model({TEXT:'+ this.get('TEXT')+ '}).addNode(node)');
-    console.log('..node='+ JSON.stringify(node));
     this.childNodes.add(node);
   },
 
   parse: function(response) {
-    console.log('model({TEXT:'+ this.get('TEXT')+ '}).parse(response)');
-    console.log('..response='+ response);
+    console.log('model({TEXT:"'+ this.get('TEXT')+ '"}).parse(response)');
+    console.log('..model.parse(): response='+ response);
     var result = this.parseXml(response);
     app.result = result;
-    console.log('..result='+ JSON.stringify(result.map.node));
+    console.log('..model.parse(): result='+ JSON.stringify(result));
     return result.map.node;
   },
 
   parseXml: function(xml, arrayTags) {
-    //transform XML string to JSON string
-    //
     var dom = null;
     if (window.DOMParser) {
       dom = (new DOMParser()).parseFromString(xml, 'text/xml');
@@ -117,11 +109,6 @@ app.MindNode = Backbone.Model.extend({
     }
 
     return result;
-  },
-
-  hello: function() {
-    console.log('hello? ' + this.get('text'));
-    this.childNodes.hello();
   }
 });
 

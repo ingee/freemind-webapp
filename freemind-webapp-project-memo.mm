@@ -433,8 +433,13 @@
 </node>
 </node>
 <node CREATED="1422721883085" ID="ID_747160468" MODIFIED="1434634461387" TEXT="implement folding/unfolding node UX">
-<node CREATED="1434633714736" ID="ID_686972016" MODIFIED="1434634413705" TEXT="refine index.html"/>
-<node CREATED="1422715241119" ID="ID_1694203287" MODIFIED="1433256013958" TEXT="check feasibility of utilizing template-lib for UI generation"/>
+<node CREATED="1434633714736" ID="ID_686972016" MODIFIED="1434727449078" TEXT="refine index.html">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1422715241119" ID="ID_1694203287" MODIFIED="1434727453927" TEXT="check feasibility of utilizing template-lib for UI generation">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1434727458590" ID="ID_542441495" MODIFIED="1434727474348" TEXT="make event handler for folding/unfolding"/>
 </node>
 <node CREATED="1422721843321" ID="ID_485553699" MODIFIED="1424058221243" TEXT="implement specifying mind-map URL UX">
 <node CREATED="1434633632971" ID="ID_1959405134" MODIFIED="1434634499539" TEXT="try dropbox url">

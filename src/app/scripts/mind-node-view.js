@@ -1,20 +1,26 @@
 'use strict';
 
-var Backbone = Backbone || {};
 var _ = _ || {};
 var app = app || {};
+var Backbone = Backbone || {};
 
 app.MindNodeView = Backbone.View.extend({
   tagName: 'li',
 
   template: _.template(
-    '<% if (typeof(node) !== "undefined" && node.length) { %>'+
-      '<span class="icon down">'+
-    '<% } else { %>'+
-      '<span class="icon minimize">'+
+    '<% if (typeof(node) !== "undefined") { %>' + '<span class="icon down">' +
+    '<% } else { %>' + '<span class="icon minimize">' +
     '<% } %><%= TEXT %></span>'
   ),
+
+  events: {
+    'click': 'toggleFolding'
+  },
   
+  toggleFolding: function(event) {
+    console.log('vw(TEXT:"'+ this.model.get('TEXT')+ '").event: '+ event);
+  },
+
   render: function() {
     this.$el.html( this.template(this.model.attributes) );
     if (this.model.childNodes.length) {
