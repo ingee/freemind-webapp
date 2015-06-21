@@ -1,7 +1,7 @@
 'use strict';
 
-var Backbone = Backbone || {};
 var app = app || {};
+var Backbone = Backbone || {};
 
 app.MindNode = Backbone.Model.extend({
   defaults: {
@@ -37,7 +37,6 @@ app.MindNode = Backbone.Model.extend({
     console.log('model({TEXT:"'+ this.get('TEXT')+ '"}).parse(response)');
     console.log('..model.parse(): response='+ response);
     var result = this.parseXml(response);
-    app.result = result;
     console.log('..model.parse(): result='+ JSON.stringify(result));
     return result.map.node;
   },

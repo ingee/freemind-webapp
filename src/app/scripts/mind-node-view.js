@@ -18,7 +18,8 @@ app.MindNodeView = Backbone.View.extend({
   },
   
   toggleFolding: function(event) {
-    console.log('vw(TEXT:"'+ this.model.get('TEXT')+ '").event: '+ event);
+    console.log('vw(TEXT='+ this.model.get('TEXT')+ '), '+ event.type+ ' event!');
+    event.stopPropagation();
   },
 
   render: function() {
