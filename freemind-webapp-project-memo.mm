@@ -432,14 +432,17 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1422721883085" ID="ID_747160468" MODIFIED="1434634461387" TEXT="implement folding/unfolding node UX">
+<node CREATED="1422721883085" ID="ID_747160468" MODIFIED="1434938900018" TEXT="implement folding/unfolding node UX">
+<icon BUILTIN="button_ok"/>
 <node CREATED="1434633714736" ID="ID_686972016" MODIFIED="1434727449078" TEXT="refine index.html">
 <icon BUILTIN="button_ok"/>
 </node>
 <node CREATED="1422715241119" ID="ID_1694203287" MODIFIED="1434727453927" TEXT="check feasibility of utilizing template-lib for UI generation">
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1434727458590" ID="ID_542441495" MODIFIED="1434727474348" TEXT="make event handler for folding/unfolding"/>
+<node CREATED="1434727458590" ID="ID_542441495" MODIFIED="1434938897228" TEXT="make event handler for folding/unfolding">
+<icon BUILTIN="button_ok"/>
+</node>
 </node>
 <node CREATED="1422721843321" ID="ID_485553699" MODIFIED="1424058221243" TEXT="implement specifying mind-map URL UX">
 <node CREATED="1434633632971" ID="ID_1959405134" MODIFIED="1434634499539" TEXT="try dropbox url">
@@ -451,8 +454,8 @@
 <node CREATED="1434634374827" ID="ID_1569333205" MODIFIED="1434634382892" TEXT="mm &#xb370;&#xc774;&#xd130;&#xb97c; &#xbc14;&#xb85c; &#xb0b4;&#xb824;&#xc8fc;&#xc9c0; &#xc54a;&#xc74c;"/>
 </node>
 </node>
+<node CREATED="1434634511901" ID="ID_1756021568" MODIFIED="1434938909854" TEXT="find way to load local file"/>
 <node CREATED="1434633740073" ID="ID_757342711" MODIFIED="1434633762750" TEXT="put url-input-box to page"/>
-<node CREATED="1434634511901" ID="ID_1756021568" MODIFIED="1434634530658" TEXT="find way to load local file"/>
 </node>
 </node>
 <node CREATED="1434672556615" ID="ID_860062756" MODIFIED="1434672560000" POSITION="right" TEXT="next todo">
