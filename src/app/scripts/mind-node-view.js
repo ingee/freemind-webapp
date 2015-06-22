@@ -8,7 +8,7 @@ app.MindNodeView = Backbone.View.extend({
   tagName: 'li',
 
   template: _.template(
-    '<% if (typeof(node) !== "undefined") { %>' + '<span class="icon down">' +
+    '<% if (typeof(node) !== "undefined") { %>' + '<span class="icon down icon right">' +
     '<% } else { %>' + '<span class="icon minimize">' +
     '<% } %><%= TEXT %></span>'
   ),
@@ -17,18 +17,41 @@ app.MindNodeView = Backbone.View.extend({
     'click': 'toggleFolding'
   },
   
+  initialize: function() {
+    this.hasChild = this.model.childNodes.length > 0;
+    this.$childEl = null;
+    this.$folderEl = null;
+    this.isFolded = false;
+  },
+
   toggleFolding: function(event) {
-    console.log('vw(TEXT='+ this.model.get('TEXT')+ '), '+ event.type+ ' event!');
     event.stopPropagation();
+    if (!this.hasChild) {
+      return;
+    }
+
+    this.isFolded = !this.isFolded;
+    if (this.isFolded) {
+      this.$folderEl.removeClass('icon down');
+      this.$folderEl.addClass('icon right');
+      this.$childEl.hide();
+    }
+    else {
+      this.$folderEl.removeClass('icon right');
+      this.$folderEl.addClass('icon down');
+      this.$childEl.show();
+    }
   },
 
   render: function() {
     this.$el.html( this.template(this.model.attributes) );
-    if (this.model.childNodes.length) {
+    this.$folderEl = this.$el.find('span');
+    if (this.hasChild) {
       var childVw = new app.MindNodeCollectionView({ 
         collection: this.model.childNodes 
       });
-      this.$el.select('ul.list').append( childVw.render().el );
+      this.$el.append( childVw.render().el );
+      this.$childEl = childVw.$el;
     }
     return this;
   }
