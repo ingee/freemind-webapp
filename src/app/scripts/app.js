@@ -76,6 +76,10 @@ var app = {
 };
 
 $(function() { 
+  var $fileElm = $('#mindmap-file');
+  $fileElm.on('change', function() {
+    console.log('file-input element\'s CHANGE event fired');
+  });
   app.start(); 
 });
 
