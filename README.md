@@ -22,7 +22,7 @@ bower install intel-appframework#2.1.1
 
 ---
 dev command (@src directory)
-- test in browser : ```bash grunt serve ```
-- build : ```bash grunt build ```
+- test in browser : ``` grunt serve ```
+- build : ``` grunt build ```
 
 (end)
