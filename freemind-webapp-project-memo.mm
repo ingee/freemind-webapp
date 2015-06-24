@@ -444,7 +444,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1422721843321" ID="ID_485553699" MODIFIED="1424058221243" TEXT="implement specifying mind-map URL UX">
+<node CREATED="1422721843321" ID="ID_485553699" MODIFIED="1435142270782" TEXT="implement specifying mind-map URL UX">
 <node CREATED="1434633632971" ID="ID_1959405134" MODIFIED="1434634499539" TEXT="try dropbox url">
 <icon BUILTIN="button_ok"/>
 <node CREATED="1434634136436" ID="ID_456753273" MODIFIED="1434634137871" TEXT="https://www.dropbox.com/s/w732z6h9cu9ctvw/test-mindmap.mm?dl=0"/>
@@ -454,8 +454,12 @@
 <node CREATED="1434634374827" ID="ID_1569333205" MODIFIED="1434634382892" TEXT="mm &#xb370;&#xc774;&#xd130;&#xb97c; &#xbc14;&#xb85c; &#xb0b4;&#xb824;&#xc8fc;&#xc9c0; &#xc54a;&#xc74c;"/>
 </node>
 </node>
-<node CREATED="1434634511901" ID="ID_1756021568" MODIFIED="1434938909854" TEXT="find way to load local file"/>
-<node CREATED="1434633740073" ID="ID_757342711" MODIFIED="1434633762750" TEXT="put url-input-box to page"/>
+<node CREATED="1434634511901" ID="ID_1756021568" MODIFIED="1435142256017" TEXT="find way to load local file">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1434633740073" ID="ID_757342711" MODIFIED="1435142260238" TEXT="put url-input-box to page">
+<icon BUILTIN="button_ok"/>
+</node>
 </node>
 </node>
 <node CREATED="1434672556615" ID="ID_860062756" MODIFIED="1434672560000" POSITION="right" TEXT="next todo">

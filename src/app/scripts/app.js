@@ -78,7 +78,23 @@ var app = {
 $(function() { 
   var $fileElm = $('#mindmap-file');
   $fileElm.on('change', function() {
+    var file = $fileElm[0].files[0];
+
     console.log('file-input element\'s CHANGE event fired');
+    console.log('..file name= '+ file.name);
+    console.log('..file size= '+ file.size);
+    console.log('..file type= '+ file.type);
+
+    var fileReader = new FileReader();
+    fileReader.onload = function() {
+      console.log('FILE-CONTENT: '+ fileReader.result);
+      app.sampleXml = fileReader.result;
+      window.location.href = '#main/'+ file.name;
+    };
+    fileReader.onerror = function(event) {
+      console.log('FILE-ERROR: '+ event.target.error.code);
+    };
+    fileReader.readAsText(file);
   });
   app.start(); 
 });
