@@ -13,14 +13,16 @@ since 2014.6.
 
 ---
 dev env setup
-- cd src
-- npm install
-- bower install
-- bower install intel-appframework#2.1.1
+```bash
+cd src
+npm install
+bower install
+bower install intel-appframework#2.1.1
+```
 
 ---
 dev command (@src directory)
-- test in browser : grunt serve
-- build : grunt build
+- test in browser : ` grunt serve `
+- build : ` grunt build `
 
 (end)
