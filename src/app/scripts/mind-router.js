@@ -9,23 +9,12 @@ app.Router = Backbone.Router.extend({
     'main/:url': 'generateNodeTree'
   },
 
-  initialize: function() {
-    console.log('router.initialize()');
-  },
-
   generateNodeTree: function(url) {
-    console.log('router.gnerateNodeTree(url), url=' + url);
-
-    console.log('..router.generateNodeTree(): preparing model tree');
-    //app.root = new app.MindNode(app.sampleObj);
+    console.log('router.generateNodeTree(url), url='+ url);
     app.root = new app.MindNode(app.sampleXml, {parse:true});
-
-    console.log('..router.generateNodeTree(): preparing view tree');
     app.rootvw = new app.MindNodeView({ model: app.root });
-    $('#mindmap-list').html('');
-    $('#mindmap-list').append(app.rootvw.render().el);
-
-    console.log('..router.generateNodeTree(): completed!');
+    app.$mindmapList.html('');
+    app.$mindmapList.append(app.rootvw.render().el);
   }
 });
 

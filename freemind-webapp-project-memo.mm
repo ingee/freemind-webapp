@@ -379,8 +379,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1422715190689" ID="ID_1013298137" MODIFIED="1424060652335" POSITION="right" TEXT="implement UX">
-<node CREATED="1422715202102" ID="ID_668488229" MODIFIED="1422721709168" TEXT="design app-architecture with Backbone.js">
+<node CREATED="1422715190689" ID="ID_1013298137" MODIFIED="1435156061814" POSITION="right" TEXT="implement UX">
+<icon BUILTIN="button_ok"/>
+<node CREATED="1422715202102" FOLDED="true" ID="ID_668488229" MODIFIED="1435156068409" TEXT="design app-architecture with Backbone.js">
 <node CREATED="1424590143213" ID="ID_1713417774" MODIFIED="1427816635990" TEXT="XML to Model &#xbcc0;&#xd658; &#xbc29;&#xbc95;&#xc744; &#xcc3e;&#xc790;">
 <node CREATED="1424590080289" ID="ID_613859393" MODIFIED="1427816593586" TEXT="BackboneJS with XML ajax">
 <node CREATED="1424590085359" ID="ID_1753471930" LINK="http://stackoverflow.com/questions/8419061/backbonejs-with-xml-ajax" MODIFIED="1424590085359" TEXT="stackoverflow.com &gt; Questions &gt; 8419061 &gt; Backbonejs-with-xml-ajax"/>
@@ -414,7 +415,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1424058125073" ID="ID_1820447360" MODIFIED="1434630928977" TEXT="implement generating node-view-tree from hard-coded static freemind data">
+<node CREATED="1424058125073" FOLDED="true" ID="ID_1820447360" MODIFIED="1435156069538" TEXT="implement generating node-view-tree from hard-coded static freemind data">
 <icon BUILTIN="button_ok"/>
 <node CREATED="1431009247334" ID="ID_678259550" MODIFIED="1433256005865" TEXT="NodeCollection&#xc5d0;&#xb294; Node*&#xc640; NodeCollection*&#xc774; &#xbaa8;&#xb450; &#xc62c; &#xc218; &#xc788;&#xc5b4;&#xc57c; &#xd55c;&#xb2e4;">
 <icon BUILTIN="button_ok"/>
@@ -432,7 +433,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1422721883085" ID="ID_747160468" MODIFIED="1434938900018" TEXT="implement folding/unfolding node UX">
+<node CREATED="1422721883085" FOLDED="true" ID="ID_747160468" MODIFIED="1435156070426" TEXT="implement folding/unfolding node UX">
 <icon BUILTIN="button_ok"/>
 <node CREATED="1434633714736" ID="ID_686972016" MODIFIED="1434727449078" TEXT="refine index.html">
 <icon BUILTIN="button_ok"/>
@@ -444,7 +445,8 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1422721843321" ID="ID_485553699" MODIFIED="1435142270782" TEXT="implement specifying mind-map URL UX">
+<node CREATED="1422721843321" FOLDED="true" ID="ID_485553699" MODIFIED="1435156071586" TEXT="implement specifying mind-map URL UX">
+<icon BUILTIN="button_ok"/>
 <node CREATED="1434633632971" ID="ID_1959405134" MODIFIED="1434634499539" TEXT="try dropbox url">
 <icon BUILTIN="button_ok"/>
 <node CREATED="1434634136436" ID="ID_456753273" MODIFIED="1434634137871" TEXT="https://www.dropbox.com/s/w732z6h9cu9ctvw/test-mindmap.mm?dl=0"/>

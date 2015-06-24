@@ -18,10 +18,10 @@ app.MindNodeView = Backbone.View.extend({
   },
   
   initialize: function() {
-    this.hasChild = this.model.childNodes.length > 0;
+    this.hasChild = this.model.childNodes.length;
     this.$childEl = null;
     this.$folderEl = null;
-    this.isFolded = false;
+    this.isFolded = true;
   },
 
   toggleFolding: function(event) {
@@ -31,7 +31,11 @@ app.MindNodeView = Backbone.View.extend({
     }
 
     this.isFolded = !this.isFolded;
-    if (this.isFolded) {
+    this.setFolding(this.isFolded);
+  },
+
+  setFolding: function(isFolded) {
+    if (isFolded) {
       this.$folderEl.removeClass('icon down');
       this.$folderEl.addClass('icon right');
       this.$childEl.hide();
@@ -52,6 +56,7 @@ app.MindNodeView = Backbone.View.extend({
       });
       this.$el.append( childVw.render().el );
       this.$childEl = childVw.$el;
+      this.setFolding(this.isFolded);
     }
     return this;
   }

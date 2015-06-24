@@ -7,95 +7,33 @@ var app = {
   sampleXml: 
     '<map version="0.9.0">'+
     '<!-- To view this file, download free mind mapping software FreeMind '+
-      'from http://freemind.sourceforge.net -->'+
-    '<node CREATED="3" ID="1" MODIFIED="2" TEXT="new-map">'+
-    '<node CREATED="1406119930596" ID="ID_1238146207" '+
-      'MODIFIED="1406119935806" POSITION="right" TEXT="this is A"/>'+
-    '<node CREATED="1406119936230" ID="ID_1428113166" '+
-      'MODIFIED="1406119938198" POSITION="right" TEXT="this is B">'+
-    '<node CREATED="1430704849639" ID="ID_538482742" '+
-      'MODIFIED="1430704856572" TEXT="Sub-Sub-1"/>'+
-    '<node CREATED="1430704857050" ID="ID_1332492316" '+
-      'MODIFIED="1430704860753" TEXT="Sub-Sub-2"/>'+
-    '<node CREATED="1430704862253" ID="ID_1284852397" '+
-      'MODIFIED="1430704867375" TEXT="Hello, World?"/>'+
-    '</node>'+
-    '<node CREATED="1406119939270" ID="ID_442146008" '+
-      'MODIFIED="1406119942491" POSITION="right" '+
-      'TEXT="&#xc774;&#xac83;&#xc740; C">'+
-    '<node CREATED="1434550826964" ID="ID_391757542" '+
-      'MODIFIED="1434550845114" TEXT="only child of C"/>'+
-    '</node>'+
-    '</node>'+
+        'from http://freemind.sourceforge.net -->'+
+    '<node CREATED="3" ID="1" MODIFIED="2" TEXT="Feel free with FreeMind !"/>'+
     '</map>',
 
-  sampleObj: {
-    'CREATED':'3', 'ID':'1', 'MODIFIED':'2',
-    'TEXT':'new-map',
-    'node':[
-      { 'CREATED':'1406119930596',
-        'ID':'ID_1238146207','MODIFIED':'1406119935806', 
-        'TEXT':'this is A'
-      },
-      { 'CREATED':'1406119936230',
-        'ID':'ID_1428113166','MODIFIED':'1406119938198',
-        'TEXT':'this is B',
-        'node':[
-          { 'CREATED':'1430704849639',
-            'ID':'ID_538482742','MODIFIED':'1430704856572',
-            'TEXT':'Sub-Sub-1'
-          },
-          { 'CREATED':'1430704857050','ID':
-            'ID_1332492316','MODIFIED':'1430704860753',
-            'TEXT':'Sub-Sub-2'
-          },
-          { 'CREATED':'1430704862253','ID':
-            'ID_1284852397','MODIFIED':'1430704867375',
-            'TEXT':'Hello, World?'
-          }
-        ]
-      },
-      { 'CREATED':'1406119939270',
-        'ID':'ID_442146008','MODIFIED':'1406119942491',
-        'TEXT':'this is C',
-        'node':{
-          'CREATED':'1434550826964',
-          'ID':'ID_391757542','MODIFIED':'1434550845114',
-          'TEXT':'only child of C'
-        }
-      }
-    ]
-  },
-
   start: function() {
-    console.log('app.start()');
     this.router = new this.Router();
     Backbone.history.start();
-    window.location.href = '#main/freemind-test.mm';
+    window.location.href = '#main/hello';
   }
 };
 
 $(function() { 
+  app.$mindmapList = $('#mindmap-list');
+  app.start(); 
+
   var $fileElm = $('#mindmap-file');
   $fileElm.on('change', function() {
     var file = $fileElm[0].files[0];
-
-    console.log('file-input element\'s CHANGE event fired');
-    console.log('..file name= '+ file.name);
-    console.log('..file size= '+ file.size);
-    console.log('..file type= '+ file.type);
-
     var fileReader = new FileReader();
     fileReader.onload = function() {
-      console.log('FILE-CONTENT: '+ fileReader.result);
       app.sampleXml = fileReader.result;
       window.location.href = '#main/'+ file.name;
     };
     fileReader.onerror = function(event) {
-      console.log('FILE-ERROR: '+ event.target.error.code);
+      window.alert('FILE-ERROR: '+ event.target.error.code);
     };
     fileReader.readAsText(file);
   });
-  app.start(); 
 });
 
