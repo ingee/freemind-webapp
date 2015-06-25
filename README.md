@@ -25,4 +25,8 @@ dev command (@src directory)
 - test in browser : ` grunt serve `
 - build : ` grunt build `
 
+---
+you can test this FreeMind webapp at following URL
+` https://stark-citadel-1898.herokuapp.com/index.html `
+
 (end)
