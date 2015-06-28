@@ -8,9 +8,21 @@ app.MindNodeView = Backbone.View.extend({
   tagName: 'li',
 
   template: _.template(
-    '<% if (typeof(node) !== "undefined") { %>' + '<span class="icon down icon right">' +
-    '<% } else { %>' + '<span class="icon minimize">' +
-    '<% } %><%= TEXT %></span>'
+    '<% if (typeof(node) !== "undefined") { %>' + 
+      '<span class="icon down icon right">' +
+    '<% } else { %>' + 
+      '<span class="icon minimize">' +
+    '<% } %>' +
+    '<% if (typeof(icon) !== "undefined") { %>' +
+      '<% if (Array.isArray(icon)) { %>' +
+        '<% _.each(icon, function(i) { %>' +
+          '<img src="images/icons/<%= _.escape(i.BUILTIN) %>.png">' +
+        '<% }); %>' +
+      '<% } else { %>' +
+        '<img src="images/icons/<%= _.escape(icon.BUILTIN) %>.png">' +
+      '<% } %>' +
+    '<% } %>' +
+    '<%= TEXT %></span>'
   ),
 
   events: {
