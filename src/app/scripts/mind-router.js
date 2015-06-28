@@ -12,7 +12,7 @@ app.Router = Backbone.Router.extend({
   generateNodeTree: function(url) {
     console.log('router.generateNodeTree(url), url='+ url);
     app.root = new app.MindNode(app.sampleXml, {parse:true});
-    app.rootvw = new app.MindNodeView({ model: app.root });
+    app.rootvw = new app.MindNodeView({ model: app.root, folding: false });
     app.$mindmapList.html('');
     app.$mindmapList.append(app.rootvw.render().el);
   }

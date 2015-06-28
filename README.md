@@ -31,4 +31,6 @@ https://stark-citadel-1898.herokuapp.com/index.html
 - tested only on Android FireFox browser (need help)
 - Scroll is not working on PC (known issue, also need help)
 
+freemind-webapp-screen-shot.png
+
 (end)
