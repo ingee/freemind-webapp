@@ -466,12 +466,13 @@
 </node>
 <node CREATED="1435551004730" ID="ID_546463007" MODIFIED="1435551012294" POSITION="right" TEXT="unit test">
 <node CREATED="1435551027674" ID="ID_1879207875" MODIFIED="1435551035918" TEXT="ref articles">
-<node CREATED="1435551044497" FOLDED="true" ID="ID_1446320406" MODIFIED="1436155935124" TEXT="Testing Your JavaScript with Jasmine">
+<node CREATED="1435551044497" FOLDED="true" ID="ID_1446320406" MODIFIED="1436235034353" TEXT="Testing Your JavaScript with Jasmine">
 <node CREATED="1435551050529" ID="ID_1400919224" MODIFIED="1435551051359" TEXT="http://code.tutsplus.com/tutorials/testing-your-javascript-with-jasmine--net-21229"/>
 <node CREATED="1435551051799" ID="ID_76713096" MODIFIED="1435551058740" TEXT="2011-08-04"/>
 <node CREATED="1435551310501" ID="ID_1346603268" MODIFIED="1435551323913" TEXT="TDD&#xc640; &#xb2ec;&#xb9ac; BDD&#xb294; &#xd300;&#xc744; &#xc704;&#xd55c; &#xac83;&#xc774;&#xb2e4;"/>
 <node CREATED="1435551424570" ID="ID_1447098550" MODIFIED="1435551443858" TEXT="Jasmine&#xc740; BDD&#xb97c; &#xc704;&#xd55c; &#xb3c4;&#xad6c;&#xc9c0;&#xb9cc; TDD &#xc2a4;&#xd0c0;&#xc77c;&#xb85c; &#xc368;&#xb3c4; &#xbb38;&#xc81c; &#xc5c6;&#xb2e4;"/>
-<node CREATED="1436146143166" ID="ID_1025568851" MODIFIED="1436146152395" TEXT="TDD: Test Driven Development">
+<node CREATED="1436146143166" ID="ID_1025568851" MODIFIED="1436235029148" TEXT="TDD: Test Driven Development">
+<icon BUILTIN="idea"/>
 <node CREATED="1436146153854" ID="ID_349636652" MODIFIED="1436146163372" TEXT="1. &#xd14c;&#xc2a4;&#xd2b8; &#xcf54;&#xb4dc; &#xc791;&#xc131;"/>
 <node CREATED="1436146163587" ID="ID_1464487968" MODIFIED="1436146169280" TEXT="2. &#xd14c;&#xc2a4;&#xd2b8; &#xcf54;&#xb4dc; &#xc2e4;&#xd328; &#xd655;&#xc778;"/>
 <node CREATED="1436146169486" ID="ID_906963195" MODIFIED="1436146178909" TEXT="3. &#xd14c;&#xc2a4;&#xd2b8; &#xcf54;&#xb4dc;&#xac00; &#xc131;&#xacf5;&#xd558;&#xb3c4;&#xb85d; &#xac1c;&#xbc1c;"/>
@@ -518,9 +519,100 @@
 <node CREATED="1436155928957" ID="ID_1736140256" MODIFIED="1436155930305" TEXT="https://github.com/velesin/jasmine-jquery"/>
 </node>
 </node>
-<node CREATED="1436155950644" ID="ID_1833226383" MODIFIED="1436155954138" TEXT="javascript unit test, karam + jasmine">
+<node CREATED="1436155950644" FOLDED="true" ID="ID_1833226383" MODIFIED="1436235022267" TEXT="javascript unit test, karam + jasmine">
 <node CREATED="1436155958476" ID="ID_404807918" MODIFIED="1436155959592" TEXT="http://i5on9i.blogspot.kr/2015/01/javascript-unit-test-karam-jasmine.html"/>
 <node CREATED="1436155970302" ID="ID_1844593592" MODIFIED="1436155976303" TEXT="2015-01-20"/>
+<node CREATED="1436230969361" ID="ID_791654326" MODIFIED="1436230985591" TEXT="karma-jasmine-jquery &#xd50c;&#xb7ec;&#xadf8;&#xc778; &#xc18c;&#xac1c;">
+<node CREATED="1436230987922" ID="ID_1533538696" MODIFIED="1436230996823" TEXT="npm install karma-jasmine-jquery"/>
+<node CREATED="1436231086869" ID="ID_1195960538" MODIFIED="1436235020881" TEXT="DOM&#xc744; &#xd14c;&#xc2a4;&#xd2b8;&#xd560; &#xc218; &#xc788;&#xc74c;">
+<icon BUILTIN="idea"/>
+</node>
+</node>
+</node>
+<node CREATED="1436231104928" FOLDED="true" ID="ID_1764088718" MODIFIED="1436235036552" TEXT="Testing DOM Events Using jQuery and Jasmine 2.0">
+<node CREATED="1436231133819" ID="ID_1188651601" MODIFIED="1436231135086" TEXT="http://www.htmlgoodies.com/beyond/javascript/js-ref/testing-dom-events-using-jquery-and-jasmine-2.0.html"/>
+<node CREATED="1436231185780" ID="ID_1208921711" MODIFIED="1436231226318" TEXT="2014-02"/>
+<node CREATED="1436231292672" ID="ID_859571167" MODIFIED="1436231323629" TEXT="&#xb300;&#xbd80;&#xbd84;&#xc758; &#xc6f9;&#xc571; &#xc774;&#xbca4;&#xd2b8;&#xb294; DOM&#xc5d0;&#xc11c; &#xbc1c;&#xc0dd;&#xd558;&#xae30; &#xb54c;&#xbb38;&#xc5d0; DOM &#xc774;&#xbca4;&#xd2b8;&#xc5d0; &#xb300;&#xd55c; &#xd14c;&#xc2a4;&#xd2b8;&#xb294; &#xd544;&#xc218;&#xc801;"/>
+<node CREATED="1436232412105" ID="ID_1604771052" MODIFIED="1436232421461" TEXT="DOM &#xc774;&#xbca4;&#xd2b8; &#xbc1c;&#xc0dd; &#xc5ec;&#xbd80;&#xb97c; &#xccb4;&#xd06c;&#xd558;&#xae30; &#xc704;&#xd574; spy&#xb97c; &#xc774;&#xc6a9;">
+<node CREATED="1436232425859" ID="ID_307979343" MODIFIED="1436232752189" TEXT="spyOnEvent( jQuery-selector, event-name )"/>
+<node CREATED="1436232753368" ID="ID_165230352" MODIFIED="1436233435417" TEXT="expect( spy )">
+<node CREATED="1436232790143" ID="ID_242989178" MODIFIED="1436232790928" TEXT="toHaveBeenTriggeredOn()"/>
+<node CREATED="1436232795265" ID="ID_1930097240" MODIFIED="1436232842188" TEXT="toHaveBeenTriggered()"/>
+</node>
+</node>
+<node CREATED="1436232887842" ID="ID_1989876479" MODIFIED="1436233538024" TEXT="DOM &#xc774;&#xbca4;&#xd2b8;&#xc5d0; &#xb300;&#xd55c; &#xc801;&#xc808;&#xd55c; &#xcc98;&#xb9ac;&#xac00; &#xc774;&#xb8e8;&#xc5b4;&#xc84c;&#xb294;&#xc9c0; &#xccb4;&#xd06c;&#xd558;&#xae30; &#xc704;&#xd574; jasmine-jquery&#xc758; &#xb2e4;&#xc591;&#xd55c; matcher&#xac00; &#xd544;&#xc694;">
+<icon BUILTIN="idea"/>
+<node CREATED="1436233402454" ID="ID_1077734908" MODIFIED="1436233426876" TEXT="expect( jQuery-obj ).toHaveText()"/>
+</node>
+</node>
+<node CREATED="1436235076027" FOLDED="true" ID="ID_1752294129" MODIFIED="1436236040857" TEXT="&#xc790;&#xbc14;&#xc2a4;&#xd06c;&#xb9bd;&#xd2b8; &#xd504;&#xb85c;&#xc81d;&#xd2b8;&#xc758;  &#xb2e8;&#xc704; &#xd14c;&#xc2a4;&#xd2b8;, &#xd14c;&#xc2a4;&#xd2b8; &#xcee4;&#xbc84;&#xb9ac; &#xc9c0; &#xadf8;&#xb9ac;&#xace0; CI">
+<node CREATED="1436235083336" ID="ID_1270595677" MODIFIED="1436235084416" TEXT="http://pillarlee16.github.io/SimpleApp/javascript-project-unit-test-test-coverage-and-ci.pdf"/>
+<node CREATED="1436235121621" ID="ID_1715892551" MODIFIED="1436235124501" TEXT="Jasmine">
+<node CREATED="1436235170035" ID="ID_186885728" MODIFIED="1436235171683" TEXT="http://pivotal.github.com/jasmine/"/>
+<node CREATED="1436235125540" ID="ID_814844675" MODIFIED="1436236038966" TEXT="Pivotal Labs.&#xc5d0;&#xc11c; &#xb9cc;&#xb4ec;">
+<icon BUILTIN="idea"/>
+</node>
+<node CREATED="1436235140278" ID="ID_810612300" MODIFIED="1436235148837" TEXT="&#xc0ac;&#xc6a9;&#xc790;&#xb4e4;&#xc774; &#xb9ce;&#xc544; &#xb2e4;&#xb978; &#xb77c;&#xc774;&#xbe0c;&#xb7ec;&#xb9ac;&#xb4e4;&#xacfc; &#xd638;&#xd658;&#xc131;&#xc774; &#xc88b;&#xb2e4;"/>
+</node>
+<node CREATED="1436235889757" ID="ID_722182389" MODIFIED="1436235890195" TEXT="SinonJS">
+<node CREATED="1436235896806" ID="ID_1588191818" MODIFIED="1436235904038" TEXT="http://sinonjs.org/"/>
+<node CREATED="1436235910053" ID="ID_1364032826" MODIFIED="1436236035067" TEXT="&#xb2e4;&#xb978; &#xb77c;&#xc774;&#xbe0c;&#xb7ec;&#xb9ac;&#xc640; &#xc804;&#xd600; &#xc758;&#xc874;&#xad00;&#xacc4; &#xc5c6;&#xc74c;">
+<icon BUILTIN="idea"/>
+</node>
+<node CREATED="1436235921532" ID="ID_1554169006" MODIFIED="1436235940050" TEXT="spies, stubs, mocks, fake timers, fake XHR, fake server, .."/>
+</node>
+</node>
+<node CREATED="1436236073907" FOLDED="true" ID="ID_1636638372" MODIFIED="1436236609436" TEXT="&#xb354; &#xb098;&#xc740; &#xc790;&#xbc14;&#xc2a4;&#xd06c;&#xb9bd;&#xd2b8; &#xd14c;&#xc2a4;&#xd305;&#xc744; &#xc704;&#xd55c; &#xac00;&#xc774;&#xb4dc;">
+<node CREATED="1436236077912" ID="ID_1695987098" MODIFIED="1436236078687" TEXT="http://www.itworld.co.kr/howto/86538"/>
+<node CREATED="1436236078922" ID="ID_1512053091" MODIFIED="1436236085821" TEXT="2014-03-17"/>
+<node CREATED="1436236222096" ID="ID_249837159" MODIFIED="1436236226369" TEXT="Karma">
+<node CREATED="1436236227920" ID="ID_678200925" MODIFIED="1436236595094" TEXT="&#xad6c;&#xae00;&#xc758; &#xc575;&#xade4;&#xb7ec; &#xd300;&#xc774; &#xad00;&#xb9ac;">
+<icon BUILTIN="idea"/>
+</node>
+<node CREATED="1436236278981" ID="ID_1858011492" MODIFIED="1436236294793" TEXT="&#xd06c;&#xb86c;, &#xd30c;&#xc774;&#xc5b4;&#xd3ed;&#xc2a4;, IE &#xb4f1; &#xbaa8;&#xc2a8; &#xbe0c;&#xb77c;&#xc6b0;&#xc800;&#xb97c; &#xc790;&#xb3d9;&#xc73c;&#xb85c; &#xc2e4;&#xd589;"/>
+<node CREATED="1436236482951" ID="ID_1534824422" MODIFIED="1436236599756" TEXT="CI&#xb97c; &#xc704;&#xd55c; &#xc820;&#xd0a8;&#xc2a4;(Jenkins) &#xd50c;&#xb7ec;&#xadf8;&#xc778; &#xc9c0;&#xc6d0;">
+<icon BUILTIN="idea"/>
+</node>
+</node>
+<node CREATED="1436236347265" ID="ID_1518265816" MODIFIED="1436236350295" TEXT="Jasmine">
+<node CREATED="1436236370378" ID="ID_1202483290" MODIFIED="1436236377244" TEXT="Jasmine&#xc740; DOM-free"/>
+<node CREATED="1436236355515" ID="ID_202881033" MODIFIED="1436236365380" TEXT="HMTL &#xad00;&#xb828; &#xd14c;&#xc2a4;&#xd2b8;&#xb97c; &#xc704;&#xd574; jasmine-jquery &#xd65c;&#xc6a9; &#xd544;&#xc694;"/>
+</node>
+<node CREATED="1436236403217" ID="ID_1065738069" MODIFIED="1436236411006" TEXT="Sinon.js">
+<node CREATED="1436236412923" ID="ID_223170220" MODIFIED="1436236431618" TEXT="Jasmine&#xc774; mocks&#xc640; spies&#xb97c; &#xc9c0;&#xc6d0;&#xd558;&#xae30; &#xc2dc;&#xc791;&#xd55c; &#xac83;&#xc740; &#xcd5c;&#xadfc;"/>
+<node CREATED="1436236431821" ID="ID_580209816" MODIFIED="1436236604081" TEXT="Sinon.js&#xc758; fake server &#xae30;&#xb2a5;&#xc740; &#xc544;&#xc9c1;&#xb3c4; &#xace0;&#xc720;&#xd55c; &#xc7a5;&#xc810;">
+<icon BUILTIN="idea"/>
+</node>
+</node>
+<node CREATED="1436236579695" ID="ID_1591589010" MODIFIED="1436236585238" TEXT="Istanbul">
+<node CREATED="1436236586121" ID="ID_1373671324" MODIFIED="1436236589422" TEXT="&#xcf54;&#xb4dc; &#xcee4;&#xbc84;&#xb9ac;&#xc9c0; &#xb3c4;&#xad6c;"/>
+</node>
+</node>
+<node CREATED="1436242049119" FOLDED="true" ID="ID_1492337511" MODIFIED="1436242287945" TEXT="jasmine-jquery GitHub">
+<node CREATED="1436242062914" ID="ID_1761582688" MODIFIED="1436242063773" TEXT="https://github.com/velesin/jasmine-jquery"/>
+<node CREATED="1436242090901" ID="ID_589963665" MODIFIED="1436242094401" TEXT="&#xc778;&#xc2a4;&#xd1a8;">
+<node CREATED="1436242095490" ID="ID_690498537" MODIFIED="1436242109279" TEXT="bower install jasmine-jquery --save"/>
+<node CREATED="1436242257446" ID="ID_629137542" MODIFIED="1436242262460" TEXT="matcher &#xb9ac;&#xc2a4;&#xd2b8;"/>
+</node>
+</node>
+<node CREATED="1436242289933" ID="ID_1599911006" MODIFIED="1436242290781" TEXT="Say Hello To Behavior Driven Development (BDD) - Part 1">
+<node CREATED="1436242296776" ID="ID_1666013587" MODIFIED="1436242298441" TEXT="http://www.codeproject.com/Articles/148043/Say-Hello-To-Behavior-Driven-Development-BDD-Part"/>
+<node CREATED="1436242298853" ID="ID_1072484679" MODIFIED="1436249268847" TEXT="2011-02-06"/>
+<node CREATED="1436242763978" ID="ID_1577413065" MODIFIED="1436242788412" TEXT="&#xae30;&#xb2a5;&#xc774; &#xc644;&#xb8cc;&#xb420; &#xb54c;&#xae4c;&#xc9c0; &#xd14c;&#xc2a4;&#xd2b8;&#xcf00;&#xc774;&#xc2a4; &#xc791;&#xc131;&#xc744; &#xbbf8;&#xb8e8;&#xac8c;&#xb418;&#xace0; &#xacb0;&#xad6d; TDD&#xac00; &#xc2e4;&#xc885;&#xb41c;&#xb2e4;"/>
+<node CREATED="1436249117172" ID="ID_544046839" MODIFIED="1436249132064" TEXT="TDD&#xc758; &#xbb38;&#xc81c;&#xc810;&#xc740; &#xd14c;&#xc2a4;&#xd2b8;&#xcf00;&#xc774;&#xc2a4; &#xc791;&#xc131;&#xc744; &#xc704;&#xd55c; &#xc9c0;&#xce68;&#xc774; &#xc5c6;&#xb2e4;&#xb294; &#xc810;">
+<node CREATED="1436249133075" ID="ID_1199665122" MODIFIED="1436249140000" TEXT="&#xc5b4;&#xb514;&#xc11c; &#xc2dc;&#xc791;&#xd574;&#xc57c; &#xd558;&#xb098;?"/>
+<node CREATED="1436249140361" ID="ID_1246212557" MODIFIED="1436249146080" TEXT="&#xc5bc;&#xb9c8;&#xb098; &#xb9ce;&#xc774; &#xc791;&#xc131;&#xd574;&#xc57c; &#xd558;&#xb098;?"/>
+</node>
+<node CREATED="1436249012153" ID="ID_1649674177" MODIFIED="1436249104775" TEXT="BDD: &#xae30;&#xb2a5; &#xba85;&#xc138;(Behaviour)&#xb97c; &#xd14c;&#xc2a4;&#xd2b8;&#xcf00;&#xc774;&#xc2a4;&#xb85c; &#xc774;&#xc6a9;">
+<icon BUILTIN="idea"/>
+<node CREATED="1436249069054" ID="ID_1926051822" MODIFIED="1436249082444" TEXT="&#xd14c;&#xc2a4;&#xd2b8;&#xcf00;&#xc774;&#xc2a4;&#xb97c; &#xc77d;&#xc73c;&#xba74; &#xae30;&#xb2a5;&#xba85;&#xc138;&#xb97c; &#xc54c; &#xc218; &#xc788;&#xb2e4;"/>
+<node CREATED="1436249082684" ID="ID_1214102128" MODIFIED="1436249091819" TEXT="&#xae30;&#xb2a5;&#xba85;&#xc138;&#xb97c; &#xc791;&#xc131;&#xd558;&#xba74; &#xd14c;&#xc2a4;&#xd2b8;&#xcf00;&#xc774;&#xc2a4;&#xac00; &#xc644;&#xc131;&#xb41c;&#xb2e4;"/>
+</node>
+</node>
+<node CREATED="1436249170702" ID="ID_1598236536" MODIFIED="1436249184402" TEXT="Say Hello To Behavior Driven Development (BDD) - Part 2">
+<icon BUILTIN="messagebox_warning"/>
+<node CREATED="1436249188424" ID="ID_626618558" MODIFIED="1436249189498" TEXT="http://www.codeproject.com/Articles/150740/Say-Hello-To-Behavior-Driven-Development-BDD-Part"/>
+<node CREATED="1436249218289" ID="ID_614987959" MODIFIED="1436249276646" TEXT="2011-03-07"/>
 </node>
 </node>
 </node>
