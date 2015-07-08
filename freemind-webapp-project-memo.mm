@@ -595,7 +595,7 @@
 <node CREATED="1436242257446" ID="ID_629137542" MODIFIED="1436242262460" TEXT="matcher &#xb9ac;&#xc2a4;&#xd2b8;"/>
 </node>
 </node>
-<node CREATED="1436242289933" ID="ID_1599911006" MODIFIED="1436242290781" TEXT="Say Hello To Behavior Driven Development (BDD) - Part 1">
+<node CREATED="1436242289933" FOLDED="true" ID="ID_1599911006" MODIFIED="1436319584188" TEXT="Say Hello To Behavior Driven Development (BDD) - Part 1">
 <node CREATED="1436242296776" ID="ID_1666013587" MODIFIED="1436242298441" TEXT="http://www.codeproject.com/Articles/148043/Say-Hello-To-Behavior-Driven-Development-BDD-Part"/>
 <node CREATED="1436242298853" ID="ID_1072484679" MODIFIED="1436249268847" TEXT="2011-02-06"/>
 <node CREATED="1436242763978" ID="ID_1577413065" MODIFIED="1436242788412" TEXT="&#xae30;&#xb2a5;&#xc774; &#xc644;&#xb8cc;&#xb420; &#xb54c;&#xae4c;&#xc9c0; &#xd14c;&#xc2a4;&#xd2b8;&#xcf00;&#xc774;&#xc2a4; &#xc791;&#xc131;&#xc744; &#xbbf8;&#xb8e8;&#xac8c;&#xb418;&#xace0; &#xacb0;&#xad6d; TDD&#xac00; &#xc2e4;&#xc885;&#xb41c;&#xb2e4;"/>
@@ -609,10 +609,29 @@
 <node CREATED="1436249082684" ID="ID_1214102128" MODIFIED="1436249091819" TEXT="&#xae30;&#xb2a5;&#xba85;&#xc138;&#xb97c; &#xc791;&#xc131;&#xd558;&#xba74; &#xd14c;&#xc2a4;&#xd2b8;&#xcf00;&#xc774;&#xc2a4;&#xac00; &#xc644;&#xc131;&#xb41c;&#xb2e4;"/>
 </node>
 </node>
-<node CREATED="1436249170702" ID="ID_1598236536" MODIFIED="1436249184402" TEXT="Say Hello To Behavior Driven Development (BDD) - Part 2">
-<icon BUILTIN="messagebox_warning"/>
+<node CREATED="1436249170702" FOLDED="true" ID="ID_1598236536" MODIFIED="1436319585502" TEXT="Say Hello To Behavior Driven Development (BDD) - Part 2">
 <node CREATED="1436249188424" ID="ID_626618558" MODIFIED="1436249189498" TEXT="http://www.codeproject.com/Articles/150740/Say-Hello-To-Behavior-Driven-Development-BDD-Part"/>
 <node CREATED="1436249218289" ID="ID_614987959" MODIFIED="1436249276646" TEXT="2011-03-07"/>
+<node CREATED="1436316508808" ID="ID_1562582595" MODIFIED="1436319582436" TEXT="unit test &#xcf54;&#xb4dc;&#xb97c; Test &#xb514;&#xb809;&#xd1a0;&#xb9ac;&#xac00; &#xc544;&#xb2c8;&#xb77d; Spec &#xb514;&#xb809;&#xd1a0;&#xb9ac;&#xc5d0; &#xc791;&#xc131;&#xd55c;&#xb2e4;">
+<icon BUILTIN="idea"/>
+<node CREATED="1436316530054" ID="ID_1037592627" MODIFIED="1436316536014" TEXT="&#xadf8;&#xb798;&#xc11c; BDD!"/>
+<node CREATED="1436316538318" ID="ID_1508365059" MODIFIED="1436316611953" TEXT="&#xc6b0;&#xb9ac;&#xac00; &#xc791;&#xc131;&#xd558;&#xb294; &#xac83;&#xc740; test(&#xd14c;&#xc2a4;&#xd2b8;&#xcf00;&#xc774;&#xc2a4;)&#xac00; &#xc544;&#xb2c8;&#xb77c; spec(&#xae30;&#xb2a5;&#xba85;&#xc138;)&#xc774;&#xb2e4;"/>
+</node>
+</node>
+<node CREATED="1436320022687" ID="ID_1377730564" MODIFIED="1436320095174" TEXT="Testing Backbone applications with Jasmine and Sinon &#x2013; Part 1">
+<icon BUILTIN="messagebox_warning"/>
+<node CREATED="1436320030308" ID="ID_1801931665" MODIFIED="1436320031180" TEXT="http://tinnedfruit.com/2011/03/03/testing-backbone-apps-with-jasmine-sinon.html"/>
+<node CREATED="1436320031435" ID="ID_1565736842" MODIFIED="1436320037999" TEXT="2011-03-03"/>
+</node>
+<node CREATED="1436320056084" ID="ID_1616728971" MODIFIED="1436320097417" TEXT="Testing Backbone applications with Jasmine and Sinon &#x2013; Part 2. Models and Collections">
+<icon BUILTIN="messagebox_warning"/>
+<node CREATED="1436320061858" ID="ID_97659375" MODIFIED="1436320062782" TEXT="http://tinnedfruit.com/2011/03/25/testing-backbone-apps-with-jasmine-sinon-2.html"/>
+<node CREATED="1436320063073" ID="ID_1844457051" MODIFIED="1436320068471" TEXT="2011-03-25"/>
+</node>
+<node CREATED="1436320078863" ID="ID_1501464128" MODIFIED="1436320098786" TEXT="Testing Backbone applications with Jasmine and Sinon &#x2013; Part 3. Routers and Views">
+<icon BUILTIN="messagebox_warning"/>
+<node CREATED="1436320083374" ID="ID_738614232" MODIFIED="1436320084145" TEXT="http://tinnedfruit.com/2011/04/26/testing-backbone-apps-with-jasmine-sinon-3.html"/>
+<node CREATED="1436320084410" ID="ID_960517339" MODIFIED="1436320090741" TEXT="2011-04-26"/>
 </node>
 </node>
 </node>
