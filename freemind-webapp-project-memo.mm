@@ -545,7 +545,7 @@
 <node CREATED="1436233402454" ID="ID_1077734908" MODIFIED="1436233426876" TEXT="expect( jQuery-obj ).toHaveText()"/>
 </node>
 </node>
-<node CREATED="1436235076027" FOLDED="true" ID="ID_1752294129" MODIFIED="1436236040857" TEXT="&#xc790;&#xbc14;&#xc2a4;&#xd06c;&#xb9bd;&#xd2b8; &#xd504;&#xb85c;&#xc81d;&#xd2b8;&#xc758;  &#xb2e8;&#xc704; &#xd14c;&#xc2a4;&#xd2b8;, &#xd14c;&#xc2a4;&#xd2b8; &#xcee4;&#xbc84;&#xb9ac; &#xc9c0; &#xadf8;&#xb9ac;&#xace0; CI">
+<node CREATED="1436235076027" FOLDED="true" ID="ID_1752294129" MODIFIED="1436753990272" TEXT="&#xc790;&#xbc14;&#xc2a4;&#xd06c;&#xb9bd;&#xd2b8; &#xd504;&#xb85c;&#xc81d;&#xd2b8;&#xc758;  &#xb2e8;&#xc704; &#xd14c;&#xc2a4;&#xd2b8;, &#xd14c;&#xc2a4;&#xd2b8; &#xcee4;&#xbc84;&#xb9ac; &#xc9c0; &#xadf8;&#xb9ac;&#xace0; CI">
 <node CREATED="1436235083336" ID="ID_1270595677" MODIFIED="1436235084416" TEXT="http://pillarlee16.github.io/SimpleApp/javascript-project-unit-test-test-coverage-and-ci.pdf"/>
 <node CREATED="1436235121621" ID="ID_1715892551" MODIFIED="1436235124501" TEXT="Jasmine">
 <node CREATED="1436235170035" ID="ID_186885728" MODIFIED="1436235171683" TEXT="http://pivotal.github.com/jasmine/"/>
@@ -618,7 +618,7 @@
 <node CREATED="1436316538318" ID="ID_1508365059" MODIFIED="1436316611953" TEXT="&#xc6b0;&#xb9ac;&#xac00; &#xc791;&#xc131;&#xd558;&#xb294; &#xac83;&#xc740; test(&#xd14c;&#xc2a4;&#xd2b8;&#xcf00;&#xc774;&#xc2a4;)&#xac00; &#xc544;&#xb2c8;&#xb77c; spec(&#xae30;&#xb2a5;&#xba85;&#xc138;)&#xc774;&#xb2e4;"/>
 </node>
 </node>
-<node CREATED="1436320022687" ID="ID_1377730564" MODIFIED="1436601452051" TEXT="Testing Backbone applications with Jasmine and Sinon &#x2013; Part 1">
+<node CREATED="1436320022687" FOLDED="true" ID="ID_1377730564" MODIFIED="1436753977978" TEXT="Testing Backbone applications with Jasmine and Sinon &#x2013; Part 1">
 <node CREATED="1436320030308" ID="ID_1801931665" MODIFIED="1436320031180" TEXT="http://tinnedfruit.com/2011/03/03/testing-backbone-apps-with-jasmine-sinon.html"/>
 <node CREATED="1436320031435" ID="ID_1565736842" MODIFIED="1436320037999" TEXT="2011-03-03"/>
 <node CREATED="1436570763006" ID="ID_1212853598" MODIFIED="1436571745091" TEXT="Jasmine&#xc740; test&#xac00; &#xc544;&#xb2c8;&#xb77c; spec&#xc744; &#xc4f0;&#xac8c; &#xd574;&#xc900;&#xb2e4;">
@@ -626,8 +626,7 @@
 </node>
 <node CREATED="1436572356968" ID="ID_1654338851" MODIFIED="1436572401548" TEXT="&#xcf54;&#xb4dc;&#xc758; &#xb0b4;&#xbd80;&#xc758; &#xc0c1;&#xc138;&#xb97c; &#xd14c;&#xc2a4;&#xd2b8;&#xd558;&#xb294; &#xac83;&#xc774; &#xc544;&#xb2c8;&#xb77c; &#xc678;&#xbd80;&#xc758; &#xd589;&#xb3d9;&#xc591;&#xc2dd; &#xac80;&#xc99d;&#xc5d0; &#xc9d1;&#xc911;"/>
 </node>
-<node CREATED="1436320056084" ID="ID_1616728971" MODIFIED="1436320097417" TEXT="Testing Backbone applications with Jasmine and Sinon &#x2013; Part 2. Models and Collections">
-<icon BUILTIN="messagebox_warning"/>
+<node CREATED="1436320056084" FOLDED="true" ID="ID_1616728971" MODIFIED="1436753979532" TEXT="Testing Backbone applications with Jasmine and Sinon &#x2013; Part 2. Models and Collections">
 <node CREATED="1436320061858" ID="ID_97659375" MODIFIED="1436320062782" TEXT="http://tinnedfruit.com/2011/03/25/testing-backbone-apps-with-jasmine-sinon-2.html"/>
 <node CREATED="1436320063073" ID="ID_1844457051" MODIFIED="1436320068471" TEXT="2011-03-25"/>
 <node CREATED="1436719634633" ID="ID_33177556" MODIFIED="1436719640705" TEXT="&#xd14c;&#xc2a4;&#xd2b8;&#xcf00;&#xc774;&#xc2a4; &#xc0dd;&#xc131; &#xc6d0;&#xce59;">
@@ -647,9 +646,48 @@
 <node CREATED="1436719962580" ID="ID_1134890256" MODIFIED="1436719981746" TEXT="&#xac00;&#xc9dc; collection &#xac1d;&#xccb4; &#xc774;&#xc6a9;"/>
 <node CREATED="1436719887659" ID="ID_780608261" MODIFIED="1436719892430" TEXT="toEqual()"/>
 </node>
-<node CREATED="1436720015776" ID="ID_1531923777" MODIFIED="1436720024599" TEXT="&#xd14c;&#xc2a4;&#xd2b8;&#xcf00;&#xc774;&#xc2a4; #4. validation">
+<node CREATED="1436720015776" ID="ID_1531923777" MODIFIED="1436753967546" TEXT="&#xd14c;&#xc2a4;&#xd2b8;&#xcf00;&#xc774;&#xc2a4; #4. validation">
+<icon BUILTIN="idea"/>
 <node CREATED="1436721186317" ID="ID_245957233" MODIFIED="1436721203510" TEXT="validation &#xc2e4;&#xd328;&#xc2dc; &#xbaa8;&#xb378;&#xb85c;&#xbd80;&#xd130; error &#xc774;&#xbca4;&#xd2b8; &#xbc1c;&#xc0dd;&#xc744; &#xd14c;&#xc2a4;&#xd2b8;"/>
 <node CREATED="1436721222410" ID="ID_816601401" MODIFIED="1436721242692" TEXT="sinon.spy()"/>
+<node CREATED="1436748877396" ID="ID_1825008832" MODIFIED="1436748900419" TEXT="spyObj.calledOnce"/>
+<node CREATED="1436748900643" ID="ID_1794939388" MODIFIED="1436748911164" TEXT="spyObj.calledWith()"/>
+<node CREATED="1436748912811" ID="ID_1680656598" MODIFIED="1436748918980" TEXT="toBeTruthy()"/>
+<node CREATED="1436748964147" ID="ID_471612679" MODIFIED="1436748986132" TEXT="Jasmine-Sinon &#xd50c;&#xb7ec;&#xadf8;&#xc778;&#xc744; &#xc4f0;&#xba74; &#xc880; &#xb354; &#xbcf4;&#xac15;&#xb41c; matcher &#xc0ac;&#xc6a9; &#xac00;&#xb2a5;">
+<node CREATED="1436749019423" ID="ID_1056456868" MODIFIED="1436749029280" TEXT="toHaveBeenCalledOnce()"/>
+<node CREATED="1436749029596" ID="ID_165486478" MODIFIED="1436749036876" TEXT="toHaveBeenCalledWith()"/>
+</node>
+</node>
+</node>
+<node CREATED="1436749066991" ID="ID_253962299" MODIFIED="1436749070578" TEXT="&#xceec;&#xb809;&#xc158; &#xd14c;&#xc2a4;&#xd2b8;">
+<node CREATED="1436752047525" ID="ID_514009935" MODIFIED="1436752056748" TEXT="&#xd14c;&#xc2a4;&#xd2b8;&#xcf00;&#xc774;&#xc2a4; #1. &#xceec;&#xb809;&#xc158; add">
+<node CREATED="1436752059694" ID="ID_207655188" MODIFIED="1436752074720" TEXT="JS &#xac1d;&#xccb4;&#xb97c; add&#xd558;&#xba74; model&#xc774; &#xc0dd;&#xc131;&#xb428;&#xc744; &#xd655;&#xc778;"/>
+<node CREATED="1436752093472" ID="ID_384970634" MODIFIED="1436752102613" TEXT="sinon.stub()"/>
+<node CREATED="1436752104338" ID="ID_914169168" MODIFIED="1436752111276" TEXT="stubObj.returns()"/>
+<node CREATED="1436752814322" ID="ID_1213464225" MODIFIED="1436752820973" TEXT="stubObj.restore()"/>
+<node CREATED="1436752118680" ID="ID_593500986" MODIFIED="1436752121584" TEXT="toEqual()"/>
+</node>
+<node CREATED="1436752211473" ID="ID_1515916850" MODIFIED="1436752221272" TEXT="&#xd14c;&#xc2a4;&#xd2b8;&#xcf00;&#xc774;&#xc2a4; #2. &#xceec;&#xb809;&#xc158; &#xc815;&#xb82c;">
+<node CREATED="1436752222566" ID="ID_1997196036" MODIFIED="1436752234712" TEXT="&#xceec;&#xb809;&#xc158;&#xc774; &#xc758;&#xb3c4;&#xd55c; &#xbc14;&#xb300;&#xb85c; &#xc815;&#xb82c;&#xb418;&#xb294;&#xc9c0; &#xd655;&#xc778;"/>
+<node CREATED="1436752235006" ID="ID_1677917032" MODIFIED="1436752253603" TEXT="toBe()">
+<node CREATED="1436752566333" ID="ID_649792244" MODIFIED="1436752586979" TEXT="toBe()&#xb294; === &#xac19;&#xc74c;(&#xc815;&#xd655;&#xd788; &#xac19;&#xc740; &#xc778;&#xc2a4;&#xd134;&#xc2a4;&#xc784;)&#xc744; &#xd655;&#xc778;"/>
+<node CREATED="1436752587257" ID="ID_83225823" MODIFIED="1436752599279" TEXT="toEqual()&#xc740; ==&#xac19;&#xc74c;(&#xac12;&#xc774; &#xac19;&#xc74c;)&#xc744; &#xd655;&#xc778;"/>
+</node>
+</node>
+<node CREATED="1436752751670" ID="ID_1602721183" MODIFIED="1436753956507" TEXT="&#xd14c;&#xc2a4;&#xd2b8;&#xcf00;&#xc774;&#xc2a4; #3. fetch()&#xc5d0; &#xc758;&#xd55c; &#xc11c;&#xbc84; &#xc751;&#xb2f5;">
+<icon BUILTIN="idea"/>
+<node CREATED="1436752770130" ID="ID_316279269" MODIFIED="1436752782321" TEXT="fake &#xc11c;&#xbc84;&#xb97c; &#xb9cc;&#xb4e4;&#xc5b4; &#xc11c;&#xbc84;&#xc751;&#xb2f5;&#xc5d0; &#xb300;&#xd55c; &#xb300;&#xc751;&#xc744; &#xd655;&#xc778;"/>
+<node CREATED="1436752792852" ID="ID_1791831291" MODIFIED="1436752801156" TEXT="sinon.fakeServer.create()"/>
+<node CREATED="1436752824038" ID="ID_276761795" MODIFIED="1436752833049" TEXT="serverObj.restore()"/>
+<node CREATED="1436752851944" ID="ID_805708775" MODIFIED="1436752859179" TEXT="serverObj.requests">
+<node CREATED="1436752860593" ID="ID_941871858" MODIFIED="1436752862790" TEXT="length"/>
+<node CREATED="1436752863085" ID="ID_282338720" MODIFIED="1436752874574" TEXT="[].method"/>
+<node CREATED="1436752874850" ID="ID_362526844" MODIFIED="1436752877755" TEXT="[].url"/>
+</node>
+<node CREATED="1436752894453" ID="ID_1843421471" MODIFIED="1436752902710" TEXT="serverObj.respondWith()">
+<node CREATED="1436752977295" ID="ID_1082850052" MODIFIED="1436753000913" TEXT="&#xbcf4;&#xd1b5; fake &#xc11c;&#xbc84;&#xc758; &#xc751;&#xb2f5;&#xc740; &#xbcc4;&#xb3c4;&#xc758; fixture JS &#xd30c;&#xc77c;&#xb85c; &#xc791;&#xc131;&#xd55c;&#xb2e4;"/>
+</node>
+<node CREATED="1436753809834" ID="ID_1343538891" MODIFIED="1436753816396" TEXT="serverObj.respond()"/>
 </node>
 </node>
 </node>
