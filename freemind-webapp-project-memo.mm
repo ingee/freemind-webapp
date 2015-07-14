@@ -618,7 +618,7 @@
 <node CREATED="1436316538318" ID="ID_1508365059" MODIFIED="1436316611953" TEXT="&#xc6b0;&#xb9ac;&#xac00; &#xc791;&#xc131;&#xd558;&#xb294; &#xac83;&#xc740; test(&#xd14c;&#xc2a4;&#xd2b8;&#xcf00;&#xc774;&#xc2a4;)&#xac00; &#xc544;&#xb2c8;&#xb77c; spec(&#xae30;&#xb2a5;&#xba85;&#xc138;)&#xc774;&#xb2e4;"/>
 </node>
 </node>
-<node CREATED="1436320022687" FOLDED="true" ID="ID_1377730564" MODIFIED="1436753977978" TEXT="Testing Backbone applications with Jasmine and Sinon &#x2013; Part 1">
+<node CREATED="1436320022687" FOLDED="true" ID="ID_1377730564" MODIFIED="1436834346244" TEXT="Testing Backbone applications with Jasmine and Sinon &#x2013; Part 1">
 <node CREATED="1436320030308" ID="ID_1801931665" MODIFIED="1436320031180" TEXT="http://tinnedfruit.com/2011/03/03/testing-backbone-apps-with-jasmine-sinon.html"/>
 <node CREATED="1436320031435" ID="ID_1565736842" MODIFIED="1436320037999" TEXT="2011-03-03"/>
 <node CREATED="1436570763006" ID="ID_1212853598" MODIFIED="1436571745091" TEXT="Jasmine&#xc740; test&#xac00; &#xc544;&#xb2c8;&#xb77c; spec&#xc744; &#xc4f0;&#xac8c; &#xd574;&#xc900;&#xb2e4;">
@@ -626,7 +626,7 @@
 </node>
 <node CREATED="1436572356968" ID="ID_1654338851" MODIFIED="1436572401548" TEXT="&#xcf54;&#xb4dc;&#xc758; &#xb0b4;&#xbd80;&#xc758; &#xc0c1;&#xc138;&#xb97c; &#xd14c;&#xc2a4;&#xd2b8;&#xd558;&#xb294; &#xac83;&#xc774; &#xc544;&#xb2c8;&#xb77c; &#xc678;&#xbd80;&#xc758; &#xd589;&#xb3d9;&#xc591;&#xc2dd; &#xac80;&#xc99d;&#xc5d0; &#xc9d1;&#xc911;"/>
 </node>
-<node CREATED="1436320056084" FOLDED="true" ID="ID_1616728971" MODIFIED="1436753979532" TEXT="Testing Backbone applications with Jasmine and Sinon &#x2013; Part 2. Models and Collections">
+<node CREATED="1436320056084" FOLDED="true" ID="ID_1616728971" MODIFIED="1436838620062" TEXT="Testing Backbone applications with Jasmine and Sinon &#x2013; Part 2. Models and Collections">
 <node CREATED="1436320061858" ID="ID_97659375" MODIFIED="1436320062782" TEXT="http://tinnedfruit.com/2011/03/25/testing-backbone-apps-with-jasmine-sinon-2.html"/>
 <node CREATED="1436320063073" ID="ID_1844457051" MODIFIED="1436320068471" TEXT="2011-03-25"/>
 <node CREATED="1436719634633" ID="ID_33177556" MODIFIED="1436719640705" TEXT="&#xd14c;&#xc2a4;&#xd2b8;&#xcf00;&#xc774;&#xc2a4; &#xc0dd;&#xc131; &#xc6d0;&#xce59;">
@@ -695,6 +695,27 @@
 <icon BUILTIN="messagebox_warning"/>
 <node CREATED="1436320083374" ID="ID_738614232" MODIFIED="1436320084145" TEXT="http://tinnedfruit.com/2011/04/26/testing-backbone-apps-with-jasmine-sinon-3.html"/>
 <node CREATED="1436320084410" ID="ID_960517339" MODIFIED="1436320090741" TEXT="2011-04-26"/>
+<node CREATED="1436834642098" ID="ID_1913089921" MODIFIED="1436834654784" TEXT="Router &#xd14c;&#xc2a4;&#xd2b8;">
+<node CREATED="1436836580867" ID="ID_1068324142" MODIFIED="1436836607086" TEXT="Backbone &#xb77c;&#xc6b0;&#xd130;&#xb294; URL &#xbcc0;&#xacbd;&#xc744; &#xc704;&#xd574; navigate() &#xba54;&#xc18c;&#xb4dc; &#xc81c;&#xacf5;"/>
+<node CREATED="1436836725987" ID="ID_731877668" MODIFIED="1436838632466" TEXT="&#xd14c;&#xc2a4;&#xd2b8; #1: URL&#xc5d0; &#xb530;&#xb978; &#xb77c;&#xc6b0;&#xd305; &#xc774;&#xbca4;&#xd2b8; &#xbc1c;&#xc0dd; &#xc5ec;&#xbd80; &#xd14c;&#xc2a4;&#xd2b8;">
+<node CREATED="1436836771143" ID="ID_1275096735" MODIFIED="1436836774947" TEXT="sinon.spy()"/>
+<node CREATED="1436836745684" ID="ID_306741765" MODIFIED="1436836767703" TEXT="router.bind(&quot;route:index&quot;, routerSpy)"/>
+<node CREATED="1436836780739" ID="ID_1271888559" MODIFIED="1436836790928" TEXT="toHaveBeenCalledOnce()"/>
+<node CREATED="1436836791187" ID="ID_1974320298" MODIFIED="1436836797425" TEXT="toHaveBeenCalledWith()"/>
+<node CREATED="1436838104325" ID="ID_1720847038" MODIFIED="1436838139267" TEXT="&#xb77c;&#xc6b0;&#xd305; &#xd14c;&#xc774;&#xbe14;&#xc5d0; &#xb530;&#xb77c; &#xb77c;&#xc6b0;&#xd305; &#xd568;&#xc218;&#xac00; &#xd638;&#xcd9c;&#xb418;&#xb294; &#xac83;&#xc740; &#xbc31;&#xbcf8;&#xc774; &#xcc45;&#xc784;&#xc838;&#xc57c; &#xd560; &#xbaab;&#xc73c;&#xb85c; &#xd14c;&#xc2a4;&#xd2b8;&#xcf00;&#xc774;&#xc2a4; &#xc791;&#xc131;&#xc740; &#xc624;&#xbc84; &#xac19;&#xb2e4;"/>
+</node>
+<node CREATED="1436838633636" ID="ID_723654792" MODIFIED="1436838662688" TEXT="&#xd14c;&#xc2a4;&#xd2b8; #2: index &#xd568;&#xc218; &#xc2e4;&#xd589;&#xc5d0; &#xb530;&#xb77c; &#xceec;&#xb809;&#xc158;&#xacfc; &#xceec;&#xb809;&#xc158;&#xbdf0;&#xac00; &#xc0dd;&#xc131;&#xb428;&#xc744; &#xd655;&#xc778;">
+<node CREATED="1436838668914" ID="ID_1908822275" MODIFIED="1436838675301" TEXT="sinon.stub()"/>
+<node CREATED="1436838680032" ID="ID_1054527775" MODIFIED="1436838685641" TEXT="stubObj.restore()"/>
+<node CREATED="1436838791744" ID="ID_1264798102" MODIFIED="1436838808315" TEXT="toHaveBeenCalledOnce()"/>
+<node CREATED="1436838808610" ID="ID_571080392" MODIFIED="1436838818802" TEXT="toHaveBeenCalledWithExactly()"/>
+<node CREATED="1436838829026" ID="ID_1004947054" MODIFIED="1436838835070" TEXT="toHaveBeenCalledWith()"/>
+</node>
+</node>
+<node CREATED="1436841984844" ID="ID_1460060360" MODIFIED="1436841988669" TEXT="View &#xd14c;&#xc2a4;&#xd2b8;">
+<node CREATED="1436841990551" ID="ID_1162164667" MODIFIED="1436842005940" TEXT="DOM &#xd14c;&#xc2a4;&#xd2b8;&#xb97c; &#xc704;&#xd574; jQuery&#xb97c; &#xd65c;&#xc6a9;&#xd558;&#xb294; &#xac83;&#xc774; &#xd3b8;&#xb9ac;"/>
+<node CREATED="1436842006220" ID="ID_1420091526" MODIFIED="1436842026136" TEXT="Jasmine&#xc744; &#xc704;&#xd55c; Jasmine BDD jQuery &#xd50c;&#xb7ec;&#xadf8;&#xc778; &#xc874;&#xc7ac;"/>
+</node>
 </node>
 </node>
 </node>
