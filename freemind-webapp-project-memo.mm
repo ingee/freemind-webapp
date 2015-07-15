@@ -702,7 +702,9 @@
 <node CREATED="1436836745684" ID="ID_306741765" MODIFIED="1436836767703" TEXT="router.bind(&quot;route:index&quot;, routerSpy)"/>
 <node CREATED="1436836780739" ID="ID_1271888559" MODIFIED="1436836790928" TEXT="toHaveBeenCalledOnce()"/>
 <node CREATED="1436836791187" ID="ID_1974320298" MODIFIED="1436836797425" TEXT="toHaveBeenCalledWith()"/>
-<node CREATED="1436838104325" ID="ID_1720847038" MODIFIED="1436838139267" TEXT="&#xb77c;&#xc6b0;&#xd305; &#xd14c;&#xc774;&#xbe14;&#xc5d0; &#xb530;&#xb77c; &#xb77c;&#xc6b0;&#xd305; &#xd568;&#xc218;&#xac00; &#xd638;&#xcd9c;&#xb418;&#xb294; &#xac83;&#xc740; &#xbc31;&#xbcf8;&#xc774; &#xcc45;&#xc784;&#xc838;&#xc57c; &#xd560; &#xbaab;&#xc73c;&#xb85c; &#xd14c;&#xc2a4;&#xd2b8;&#xcf00;&#xc774;&#xc2a4; &#xc791;&#xc131;&#xc740; &#xc624;&#xbc84; &#xac19;&#xb2e4;"/>
+<node CREATED="1436838104325" ID="ID_1720847038" MODIFIED="1436921950391" TEXT="&#xb77c;&#xc6b0;&#xd305; &#xd14c;&#xc774;&#xbe14;&#xc5d0; &#xb530;&#xb77c; &#xb77c;&#xc6b0;&#xd305; &#xd568;&#xc218;&#xac00; &#xd638;&#xcd9c;&#xb418;&#xb294; &#xac83;&#xc740; &#xbc31;&#xbcf8;&#xc774; &#xcc45;&#xc784;&#xc838;&#xc57c; &#xd560; &#xbaab;&#xc73c;&#xb85c; &#xd14c;&#xc2a4;&#xd2b8;&#xcf00;&#xc774;&#xc2a4; &#xc791;&#xc131;&#xc740; &#xc624;&#xbc84; &#xac19;&#xb2e4;">
+<icon BUILTIN="idea"/>
+</node>
 </node>
 <node CREATED="1436838633636" ID="ID_723654792" MODIFIED="1436838662688" TEXT="&#xd14c;&#xc2a4;&#xd2b8; #2: index &#xd568;&#xc218; &#xc2e4;&#xd589;&#xc5d0; &#xb530;&#xb77c; &#xceec;&#xb809;&#xc158;&#xacfc; &#xceec;&#xb809;&#xc158;&#xbdf0;&#xac00; &#xc0dd;&#xc131;&#xb428;&#xc744; &#xd655;&#xc778;">
 <node CREATED="1436838668914" ID="ID_1908822275" MODIFIED="1436838675301" TEXT="sinon.stub()"/>
@@ -715,6 +717,58 @@
 <node CREATED="1436841984844" ID="ID_1460060360" MODIFIED="1436841988669" TEXT="View &#xd14c;&#xc2a4;&#xd2b8;">
 <node CREATED="1436841990551" ID="ID_1162164667" MODIFIED="1436842005940" TEXT="DOM &#xd14c;&#xc2a4;&#xd2b8;&#xb97c; &#xc704;&#xd574; jQuery&#xb97c; &#xd65c;&#xc6a9;&#xd558;&#xb294; &#xac83;&#xc774; &#xd3b8;&#xb9ac;"/>
 <node CREATED="1436842006220" ID="ID_1420091526" MODIFIED="1436842026136" TEXT="Jasmine&#xc744; &#xc704;&#xd55c; Jasmine BDD jQuery &#xd50c;&#xb7ec;&#xadf8;&#xc778; &#xc874;&#xc7ac;"/>
+<node CREATED="1436919091021" ID="ID_648720616" MODIFIED="1436919157560" TEXT="&#xd50c;&#xb7ec;&#xadf8;&#xc778;&#xc744; &#xc0ac;&#xc6a9;&#xd574;&#xc11c; &#xd14c;&#xc2a4;&#xd2b8;&#xd558;&#xb824;&#xba74; jasmine-jquery.js&#xb97c; jasmine.yml &#xc774;&#xb098; SpecRunner.html&#xc5d0; &#xcd94;&#xac00;"/>
+<node CREATED="1436919343055" ID="ID_1750281083" MODIFIED="1436919362063" TEXT="&#xd14c;&#xc2a4;&#xd2b8; #1: View&#xac00; &#xc801;&#xc808;&#xd55c; DOM &#xc5d8;&#xb9ac;&#xba3c;&#xd2b8;&#xb97c; &#xc0dd;&#xc131;&#xd558;&#xb294;&#xc9c0; &#xd655;&#xc778;">
+<node CREATED="1436919363665" ID="ID_517885739" MODIFIED="1436919377655" TEXT="this.view.el.nodename"/>
+<node CREATED="1436919377891" ID="ID_1269043822" MODIFIED="1436919382680" TEXT="toEqual()"/>
+<node CREATED="1436920049359" ID="ID_631875487" MODIFIED="1436920064761" TEXT="$obj.toHaveClass()"/>
+</node>
+<node CREATED="1436920425771" ID="ID_1927288857" MODIFIED="1436923492103" TEXT="&#xd14c;&#xc2a4;&#xd2b8; #2: &#xb79c;&#xb354;&#xb9c1; (&#xcf5c;&#xb809;&#xc158;View)">
+<node CREATED="1436921392212" ID="ID_1698680007" MODIFIED="1436921424796" TEXT="&#xcf5c;&#xb809;&#xc158;View &#xd14c;&#xc2a4;&#xd2b8; &#xb54c;&#xb294; &#xbaa8;&#xb378;View&#xb97c; basic Backbone View&#xb85c; &#xd749;&#xb0b4;&#xb0b4;&#xb294; &#xac83;&#xc774; &#xd3b8;&#xb9ac;">
+<node CREATED="1436921442824" ID="ID_666458549" MODIFIED="1436921475848" TEXT="&#xd14c;&#xc2a4;&#xd2b8; &#xc2dc;&#xb098;&#xb9ac;&#xc624;&#xb97c; &#xaca9;&#xb9ac;&#xc2dc;&#xd0a4;&#xae30; &#xc704;&#xd574;(&#xcf5c;&#xb809;&#xc158;View &#xd14c;&#xc2a4;&#xd2b8;&#xc5d0; &#xc9d1;&#xc911;&#xd558;&#xae30; &#xc704;&#xd574;) &#xd544;&#xc694;"/>
+<node CREATED="1436921425891" ID="ID_534575117" MODIFIED="1436921590570" TEXT="stub&#xc774;&#xb098; mock &#xac1d;&#xccb4;&#xb97c; &#xb530;&#xb85c; &#xb9cc;&#xb4dc;&#xb294; &#xac83;&#xbcf4;&#xb2e4; &#xd3b8;&#xb9ac;"/>
+</node>
+<node CREATED="1436921892155" ID="ID_1010529692" MODIFIED="1436922713559" TEXT="#. &#xcf5c;&#xb809;&#xc158;View &#xc2a4;&#xd399;&#xc5d0;&#xc11c; &#xbaa8;&#xb378;View&#xc758; render() &#xd568;&#xc218;&#xac00; &#xd638;&#xcd9c;&#xb410;&#xb294;&#xc9c0; &#xd655;&#xc778;">
+<node CREATED="1436921916139" ID="ID_1582619029" MODIFIED="1436921961488" TEXT="&#xc801;&#xc808;&#xd788; &#xc2e4;&#xd589;&#xb410;&#xb294;&#xc9c0;&#xac00; &#xc544;&#xb2c8;&#xb77c;, &#xd638;&#xcd9c; &#xc5ec;&#xbd80;&#xb97c; &#xd14c;&#xc2a4;&#xd2b8;&#xd558;&#xb294; &#xac83;&#xc740; &#xc758;&#xbbf8; &#xc5c6;&#xb2e4;&#xace0; &#xc0dd;&#xac01;">
+<icon BUILTIN="idea"/>
+</node>
+</node>
+<node CREATED="1436922616860" ID="ID_195167845" MODIFIED="1436922646815" TEXT="#. &#xcf5c;&#xb809;&#xc158; View &#xc2a4;&#xd399;&#xc5d0;&#xc11c; &#xbaa8;&#xb378;View&#xc758; render() &#xd568;&#xc218; &#xd638;&#xcd9c;&#xc5d0; &#xc758;&#xd574; DOM &#xb178;&#xb4dc;&#xac00; &#xcd94;&#xac00;&#xb410;&#xb294;&#xc9c0; &#xd655;&#xc778;">
+<node CREATED="1436922678285" ID="ID_62569221" MODIFIED="1436922696203" TEXT="&#xcf5c;&#xb809;&#xc158;View &#xc2a4;&#xd399;&#xc5d0;&#xc11c; &#xb9cc;&#xb4e0; &#xac00;&#xc9dc; &#xbaa8;&#xb378;View &#xcf54;&#xb4dc;&#xac00; DOM &#xb178;&#xb4dc;&#xb97c; &#xcd94;&#xac00;&#xd55c;&#xb2e4;"/>
+<node CREATED="1436922668026" ID="ID_70734843" MODIFIED="1436922704847" TEXT="&#xc758;&#xbbf8; &#xc5c6;&#xb294; &#xd14c;&#xc2a4;&#xd2b8;&#xb77c;&#xace0; &#xc0dd;&#xac01;">
+<icon BUILTIN="idea"/>
+</node>
+</node>
+<node CREATED="1436921663028" ID="ID_1388851835" MODIFIED="1436921668911" TEXT="sinon.stub()"/>
+<node CREATED="1436921699960" ID="ID_318125244" MODIFIED="1436921704959" TEXT="stubObj.returns()"/>
+<node CREATED="1436921669683" ID="ID_1650053127" MODIFIED="1436921674764" TEXT="stubObj.restore()"/>
+<node CREATED="1436921710982" ID="ID_1844269950" MODIFIED="1436922064524" TEXT="toHaveBeenCalledThrice()"/>
+<node CREATED="1436921726398" ID="ID_843574883" MODIFIED="1436921735035" TEXT="toHaveBeenCalledWith()"/>
+</node>
+<node CREATED="1436922723482" ID="ID_1032325210" MODIFIED="1436923497838" TEXT="&#xd14c;&#xc2a4;&#xd2b8; #3: HTML &#xb79c;&#xb354;&#xb9c1; (&#xbaa8;&#xb378;View)">
+<node CREATED="1436923340039" ID="ID_378891279" MODIFIED="1436923357003" TEXT="#. View&#xc758; render()&#xac00; VIew &#xc778;&#xc2a4;&#xd134;&#xc2a4;&#xb97c; &#xb9ac;&#xd134;&#xd558;&#xb294;&#xc9c0; &#xd655;&#xc778;">
+<node CREATED="1436923446039" ID="ID_1498604305" MODIFIED="1436923451859" TEXT="toEqual()"/>
+</node>
+<node CREATED="1436923401162" ID="ID_1050859255" MODIFIED="1436928004718" TEXT="#. &#xc0dd;&#xc131;&#xb41c; &#xd654;&#xba74;&#xc774; &#xc801;&#xc808;&#xd55c;&#xc9c0; &#xd655;&#xc778;">
+<node CREATED="1436928041168" ID="ID_1496022004" MODIFIED="1436928058292" TEXT="beforeEach()&#xc5d0;&#xc11c; view&#xc758; render()&#xd568;&#xc218; &#xd638;&#xcd9c;"/>
+<node CREATED="1436928058516" ID="ID_1867058541" MODIFIED="1436928081063" TEXT="view.$el.find()"/>
+<node CREATED="1436928082048" ID="ID_818938842" MODIFIED="1436928087432" TEXT="toHaveAttr()"/>
+<node CREATED="1436928089764" ID="ID_1115603825" MODIFIED="1436928093531" TEXT="toHaveText()"/>
+<node CREATED="1436933709520" ID="ID_799325609" MODIFIED="1436933713296" TEXT="setFixture()">
+<node CREATED="1436933714486" ID="ID_748438754" MODIFIED="1436933749139" TEXT="&#xd14c;&#xc2a4;&#xd2b8;&#xb97c; &#xc704;&#xd55c; DOM &#xd2b8;&#xb9ac;&#xb97c; &#xc900;&#xbe44;"/>
+<node CREATED="1436933753563" ID="ID_93251767" MODIFIED="1436933764547" TEXT="Jasmine jQuery &#xd50c;&#xb7ec;&#xadf8;&#xc778;&#xc758; &#xae30;&#xb2a5;"/>
+<node CREATED="1436934006838" ID="ID_187773399" MODIFIED="1436934033531" TEXT="view.el &#xc774; &#xc544;&#xb2c8;&#xb77c; jQuery &#xac1d;&#xccb4;&#xc5d0; &#xc9c1;&#xc811; matcher&#xb97c; &#xd14c;&#xc2a4;&#xd2b8;">
+<icon BUILTIN="idea"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1436933795091" ID="ID_1906481719" MODIFIED="1436933947699" TEXT="&#xd14c;&#xc2a4;&#xd2b8; #4: &#xd15c;&#xd50c;&#xb9bf; &#xb77c;&#xc774;&#xbe0c;&#xb7ec;&#xb9ac;&#xb97c; &#xc774;&#xc6a9;&#xd55c; &#xb79c;&#xb354;&#xb9c1; (&#xbaa8;&#xb378;View)">
+<node CREATED="1436933898346" ID="ID_399971004" MODIFIED="1436933928485" TEXT="&#xbaa8;&#xb378; &#xc18d;&#xc131; &#xac12;&#xc5d0; &#xb530;&#xb77c; UI &#xc18d;&#xc131;&#xc774; &#xb2ec;&#xb77c;&#xc9d0;(&#xbd80;&#xc5ec;&#xb418;&#xb294; &#xd074;&#xb798;&#xc2a4;&#xac00; &#xb2ec;&#xb77c;&#xc9d0;)&#xc744; &#xd655;&#xc778;"/>
+<node CREATED="1436933937133" ID="ID_1242060558" MODIFIED="1436933942408" TEXT="toHaveClass()"/>
+<node CREATED="1436934215848" ID="ID_35667012" MODIFIED="1436934233850" TEXT="&#xd15c;&#xd50c;&#xb9bf; &#xb77c;&#xc774;&#xbe0c;&#xb7ec;&#xb9ac;&#xb97c; &#xc774;&#xc6a9;&#xd588;&#xc744; &#xb54c;&#xc5d0;&#xb3c4; &#xd14c;&#xc2a4;&#xd2b8;&#xac00; &#xc131;&#xacf5;&#xd568;&#xc744; &#xd655;&#xc778;"/>
+</node>
+<node CREATED="1436934287840" ID="ID_1406141452" MODIFIED="1436934294629" TEXT="&#xd14c;&#xc2a4;&#xd2b8; #4: &#xc774;&#xbca4;&#xd2b8;"/>
 </node>
 </node>
 </node>
