@@ -691,8 +691,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1436320078863" ID="ID_1501464128" MODIFIED="1436320098786" TEXT="Testing Backbone applications with Jasmine and Sinon &#x2013; Part 3. Routers and Views">
-<icon BUILTIN="messagebox_warning"/>
+<node CREATED="1436320078863" FOLDED="true" ID="ID_1501464128" MODIFIED="1436969400615" TEXT="Testing Backbone applications with Jasmine and Sinon &#x2013; Part 3. Routers and Views">
 <node CREATED="1436320083374" ID="ID_738614232" MODIFIED="1436320084145" TEXT="http://tinnedfruit.com/2011/04/26/testing-backbone-apps-with-jasmine-sinon-3.html"/>
 <node CREATED="1436320084410" ID="ID_960517339" MODIFIED="1436320090741" TEXT="2011-04-26"/>
 <node CREATED="1436834642098" ID="ID_1913089921" MODIFIED="1436834654784" TEXT="Router &#xd14c;&#xc2a4;&#xd2b8;">
@@ -768,7 +767,19 @@
 <node CREATED="1436933937133" ID="ID_1242060558" MODIFIED="1436933942408" TEXT="toHaveClass()"/>
 <node CREATED="1436934215848" ID="ID_35667012" MODIFIED="1436934233850" TEXT="&#xd15c;&#xd50c;&#xb9bf; &#xb77c;&#xc774;&#xbe0c;&#xb7ec;&#xb9ac;&#xb97c; &#xc774;&#xc6a9;&#xd588;&#xc744; &#xb54c;&#xc5d0;&#xb3c4; &#xd14c;&#xc2a4;&#xd2b8;&#xac00; &#xc131;&#xacf5;&#xd568;&#xc744; &#xd655;&#xc778;"/>
 </node>
-<node CREATED="1436934287840" ID="ID_1406141452" MODIFIED="1436934294629" TEXT="&#xd14c;&#xc2a4;&#xd2b8; #4: &#xc774;&#xbca4;&#xd2b8;"/>
+<node CREATED="1436934287840" ID="ID_1406141452" MODIFIED="1436934294629" TEXT="&#xd14c;&#xc2a4;&#xd2b8; #4: &#xc774;&#xbca4;&#xd2b8;">
+<node CREATED="1436968752578" ID="ID_278850830" MODIFIED="1436968784884" TEXT="#. click &#xc774;&#xbca4;&#xd2b8;&#xc5d0; &#xb530;&#xb77c; &#xc5d8;&#xb9ac;&#xba3c;&#xd2b8; show/hide &#xcc98;&#xb9ac; &#xd655;&#xc778;">
+<node CREATED="1436968788734" ID="ID_595943540" MODIFIED="1436968795698" TEXT="toBeVisible()"/>
+<node CREATED="1436968797817" ID="ID_1557706583" MODIFIED="1436968803058" TEXT="not.toBeVisible()"/>
+</node>
+</node>
+<node CREATED="1436968939222" ID="ID_1513895718" MODIFIED="1436968954337" TEXT="&#xd14c;&#xc2a4;&#xd2b8; #5: &#xc560;&#xb2c8;&#xba54;&#xc774;&#xc158; &amp; &#xd0c0;&#xc774;&#xbc0d;">
+<node CREATED="1436969122137" ID="ID_62816005" MODIFIED="1436969128368" TEXT="waits()"/>
+<node CREATED="1436969137663" ID="ID_102911821" MODIFIED="1436969141166" TEXT="runs()"/>
+<node CREATED="1436969228678" ID="ID_1474929993" MODIFIED="1436969239467" TEXT="sinon.useFakeTimers()"/>
+<node CREATED="1436969245138" ID="ID_550784080" MODIFIED="1436969259453" TEXT="fakeTimerObj.restore()"/>
+<node CREATED="1436969263722" ID="ID_111928577" MODIFIED="1436969271480" TEXT="fakeTimerObj.tick()"/>
+</node>
 </node>
 </node>
 </node>
